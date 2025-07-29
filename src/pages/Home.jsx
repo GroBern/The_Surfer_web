@@ -8,6 +8,9 @@ import ImageCard from "../components/ImageCard";
 import SurfurWay from "../components/SurfurWay";
 import SurfPackageCard from "../components/Packages";
 import Difference from "../components/Difference";
+import Activities from "../components/Activities";
+import MasonryGrid from "../components/Follow";
+import Reviews from "../components/Reviews";
 
 
 const Home = () => {
@@ -56,6 +59,7 @@ const Home = () => {
     <div>
       <Header />
       <SurfingJourney />
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 py-10">
         {Object.values(cards).map((card, index) => (
           <motion.div
@@ -75,6 +79,8 @@ const Home = () => {
           </motion.div>
         ))}
       </div>
+
+
       <Difference />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -101,7 +107,15 @@ const Home = () => {
       </div>
 
       <SurfurWay />
+
       <SurfPackageCard />
+
+      <Activities />
+
+      <MasonryGrid />
+
+      <Reviews />
+
     </div>
   );
 };
