@@ -1,6 +1,6 @@
 import React from "react";
 
-const SurfCampCard = ({ pic, topic, body1, body2 }) => {
+const SurfCampCard = ({ pic, topic, body1, body2, link }) => {
   return (
     <div
       className="relative bg-cover bg-center h-[400px] flex items-end justify-center shadow-lg"
@@ -12,9 +12,9 @@ const SurfCampCard = ({ pic, topic, body1, body2 }) => {
         <h1 className="text-2xl font-bold mb-4">{topic}</h1>
         <p className="text-sm mb-4">{body1}</p>
         <p className="text-sm mb-6">{body2}</p>
-        <button className="text-white border-2 border-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition">
+        <a href={link} className="text-white border-2 border-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition">
           BOOK NOW
-        </button>
+        </a>
       </div>
     </div>
   );

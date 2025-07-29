@@ -14,7 +14,8 @@ import Reviews from "../components/Reviews";
 import FAQ from "../components/FAQ";
 import Blogs from "../components/Blogs";
 import { Footer } from "../components/Footer";
-import {FooterStats} from "../components/Footer";
+import { FooterStats } from "../components/Footer";
+import { link } from "framer-motion/client";
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       topic: "The Surfer Beach Surf Camp",
       body1:
         "Join us at the ultimate destination for surf enthusiasts. Experience the thrill of riding the waves and enjoy the serene beauty of the ocean.",
+      link: "/beach-camp",
     },
 
     card2: {
@@ -31,6 +33,7 @@ const Home = () => {
       topic: "TS2 Surf Camp",
       body1:
         "Feel the magic of surfing as the sun sets over the horizon. Our guided sunset sessions are a perfect way to end your beach day.",
+      link: "/ts2-camp",
     },
 
     card3: {
@@ -38,6 +41,7 @@ const Home = () => {
       topic: "The Wave Surf Camp",
       body1:
         "Create lasting memories with your loved ones on a fun-filled family surf holiday. Safe, guided, and tailored for all age groups.",
+      link: "/wave-camp",
     },
 
     card4: {
@@ -45,16 +49,17 @@ const Home = () => {
       topic: "The Surfer Surf Style",
       body1:
         "Take your skills to the next level with our advanced surf training camp. Designed for serious surfers seeking to improve technique and form.",
+      link: "/style-camp",
     },
   };
 
   const destinations = [
     {
-      image:"srilanka.jpg",
+      image: "srilanka.jpg",
       title: "Sri Lanka",
     },
     {
-      image:"morocco.jpg",
+      image: "morocco.jpg",
       title: "Morocco",
     },
   ];
@@ -87,6 +92,7 @@ const Home = () => {
                 topic={card.topic}
                 body1={card.body1}
                 body2={card.body2}
+                link={card.link}
               />
             </motion.div>
           ))}
