@@ -13,7 +13,6 @@ const images = [
 const MasonryGrid = () => {
   return (
     <div className="py-10 md:py-16 px-4 bg-gradient-to-br from-gray-50 via-white to-white-50">
-      {/* Follow US Header with Animation */}
       <motion.div 
         className="text-center mb-8"
         initial={{ opacity: 0, y: 30 }}
@@ -32,7 +31,6 @@ const MasonryGrid = () => {
         </motion.h2>
       </motion.div>
 
-      {/* Grid Layout without background */}
       <motion.div 
         className="max-w-5xl mx-auto"
         initial={{ opacity: 0, y: 50 }}
@@ -41,7 +39,6 @@ const MasonryGrid = () => {
         viewport={{ once: true, amount: 0.2 }}
       >
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
-          {/* First row - 4 images with enhanced styling */}
           <motion.div 
             className="aspect-square group relative overflow-hidden"
             initial={{ opacity: 0, y: 50, scale: 0.9 }}
@@ -122,7 +119,6 @@ const MasonryGrid = () => {
             <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 transition-all duration-300"></div>
           </motion.div>
 
-          {/* Second row - 2 images with enhanced styling */}
           <motion.div 
             className="col-span-2 aspect-[2/1] group relative overflow-hidden"
             initial={{ opacity: 0, y: 50, scale: 0.9 }}

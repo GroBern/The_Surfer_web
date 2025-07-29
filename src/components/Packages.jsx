@@ -15,7 +15,6 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
       }}
     >
       <div className="flex flex-col lg:flex-row">
-        {/* Image Section */}
         <motion.div 
           className="w-full lg:w-2/5 relative overflow-hidden"
           whileHover={{ scale: 1.03 }}
@@ -28,9 +27,7 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
           />
         </motion.div>
         
-        {/* Content Section */}
         <div className="w-full lg:w-4/5 p-4 sm:p-5 md:p-6 bg-gradient-to-br from-gray-50 to-white">
-          {/* Header */}
           <motion.div 
             className="mb-3 sm:mb-4"
             initial={{ opacity: 0, x: 20 }}
@@ -49,7 +46,6 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
             </div>
           </motion.div>
           
-          {/* Features List */}
           <motion.div 
             className="mb-4 sm:mb-5"
             initial={{ opacity: 0, x: 20 }}
@@ -80,7 +76,6 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
             </div>
           </motion.div>
           
-          {/* Book Now Button */}
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}

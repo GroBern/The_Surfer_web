@@ -1,4 +1,3 @@
-// Header.jsx - Responsive Header Component
 import React from 'react'
 import Navbar from './Navbar'
 

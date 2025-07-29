@@ -22,7 +22,6 @@ const FooterStats = () => (
 const Footer = () => (
   <footer className="bg-[#0a67b3] text-white pt-12 pb-8">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start px-1 gap-10 md:gap-0">
-      {/* Logo and Socials */}
       <div className="flex flex-col items-center md:items-start mb-8 mr-10 pr-10 md:mb-0">
         <img src="/logo1.png" alt="The Surfer Logo" className="h-20 w-auto mb-6" />
         <div className="flex gap-4">
@@ -32,7 +31,6 @@ const Footer = () => (
           <a href="#" className="bg-white/90 rounded-full p-2 hover:bg-cyan-200 transition"><img src="/yt.png" alt="YouTube" className="h-6 w-6" /></a>
         </div>
       </div>
-      {/* Footer Links */}
       <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-25">
         <div className="pl-10 mr-1 ">
           <h3 className="font-semibold mb-3 text-lg">About us</h3>

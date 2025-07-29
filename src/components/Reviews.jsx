@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 
-// ReviewsCard component
 const ReviewsCard = (props) => {
     return (
         <motion.div 
@@ -55,9 +54,7 @@ const ReviewsCard = (props) => {
     )
 }
 
-// Reviews component (main component)
 const Reviews = () => {
-    // Image data array
     const reviewsData = [
         { id: 1, img: "/review.png", name: "John" },
         { id: 2, img: "/review.png", name: "Rose" },

@@ -159,7 +159,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Horizontal line - only shows when mobile menu is closed and not scrolled */}
       {!isMenuOpen && !isScrolled && (
         <div className='container mx-auto px-3 sm:px-6 md:px-8 lg:px-16'>
           <div className='w-full h-0.5 bg-white/80'></div>

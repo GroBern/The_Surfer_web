@@ -12,7 +12,6 @@ const Activities = () => {
   return (
     <div className="py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        {/* Activities Header */}
         <div className="text-center mb-12">
           <motion.h1 
             className="text-4xl md:text-5xl font-bold text-neutral-400 mb-8 tracking-wider"
@@ -25,7 +24,6 @@ const Activities = () => {
           </motion.h1>
         </div>
 
-        {/* Activities Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {activities.map((activity, index) => (
             <ActivityCard
@@ -52,7 +50,6 @@ const ActivityCard = ({ pic, title }) => {
             transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
             viewport={{ once: false, amount: 0.5 }}
     >
-      {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative z-10 text-white p-4 text-center w-full">
