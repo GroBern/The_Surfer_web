@@ -3,7 +3,7 @@ import React from "react";
 const SurfCampCard = ({ pic, topic, body1, body2 }) => {
   return (
     <div
-      className="relative bg-cover bg-center h-[400px] flex items-end justify-center rounded-xl shadow-lg"
+      className="relative bg-cover bg-center h-[400px] flex items-end justify-center shadow-lg"
       style={{
         backgroundImage: `url(/${pic})`,
       }}

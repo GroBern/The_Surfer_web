@@ -43,7 +43,7 @@ const Activities = () => {
 const ActivityCard = ({ pic, title }) => {
   return (
     <motion.div
-      className="relative bg-cover bg-center h-[400px] flex items-end justify-center rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+      className="relative bg-cover bg-center h-[400px] flex items-end justify-center shadow-lg transition-transform duration-300 hover:scale-105"
       style={{
         backgroundImage: `url(/${pic})`,
       }}
@@ -53,7 +53,7 @@ const ActivityCard = ({ pic, title }) => {
             viewport={{ once: false, amount: 0.5 }}
     >
       {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/40 rounded-xl"></div>
+      <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative z-10 text-white p-4 text-center w-full">
         <h3 className="text-lg md:text-xl lg:text-2xl font-bold leading-tight">{title}</h3>

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const SurfingJourney = () => {
   return (
     <motion.div 
-      className='flex flex-col items-center justify-center container mx-auto p-6 sm:p-8 md:p-14 md:px-20 lg:px-16 w-full overflow-hidden' 
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-1.5' 
       id='Journey'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -12,7 +12,7 @@ const SurfingJourney = () => {
       viewport={{ once: false, amount: 0.3 }}
     >
       <motion.h1 
-        className='text-2xl sm:text-3xl md:text-4xl lg:text-2xl font-bold text-center mb-6 sm:mb-8 text-neutral-400'
+        className='text-sm sm:text-base md:text-lg lg:text-base font-bold text-center text-neutral-400'
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
@@ -22,7 +22,7 @@ const SurfingJourney = () => {
       </motion.h1>
       
       <motion.p 
-        className='text-sm sm:text-base md:text-lg leading-relaxed text-center max-w-8xl text-black px-4'
+        className='text-[8px] sm:text-[10px] md:text-xs leading-tight text-center max-w-2xl text-black px-1'
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
@@ -34,11 +34,13 @@ const SurfingJourney = () => {
         camp located 05 minutes ride away from the beach camp, even though you book TS2 weligama , all your surf lessons, Yoga, dinner and all
         events Will be taken place at the beach camp ! 1000 rupees per day will be paid per room and per dormitory as a transport compensation
         to travel between the camps! You can basically spend all ur day at the beach camp and just go for sleep at TS2 camp !      
-        </motion.p>
+      </motion.p>
 
-        <button className='hidden md:block px-4 lg:px-8 mt-4 py-2 text-sm lg:text-base rounded-full border border-black text-black transition-all duration-300 hover:bg-black-300 hover:text-black hover:scale-105 hover:shadow-lg transform'>
-          BOOK NOW
-        </button>
+        <div className='flex justify-center w-full'>
+          <button className='px-1.5 lg:px-2 mt-1 py-0.5 text-[8px] lg:text-[10px] rounded-full border border-black text-black transition-all duration-300 hover:bg-black-200 hover:text-black hover:scale-102 hover:shadow-lg transform'>
+            BOOK NOW
+          </button>
+        </div>
     </motion.div>
   )
 }

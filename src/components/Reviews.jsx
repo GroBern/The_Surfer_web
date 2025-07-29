@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const ReviewsCard = (props) => {
     return (
         <motion.div 
-            className='w-full md:w-1/3 bg-white border-2 border-gray-300 md:border-none p-5 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105'
+            className='w-full md:w-1/3 bg-white border-2 border-gray-300 pt-8 md:border-none p-5 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105'
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -76,7 +76,7 @@ const Reviews = () => {
             >
                 Reviews
             </motion.h1>
-                      
+            {/* Testimonials */}
             <div className='flex flex-col md:flex-row gap-5 mt-5'>
                 {reviewsData.map((review) => (
                     <ReviewsCard 
@@ -86,8 +86,53 @@ const Reviews = () => {
                     />
                 ))}
             </div>
+
+
+            {/* Awards and review badges section - single row on large screens, stacked on mobile */}
+            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-12 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10">
+                {/* TripAdvisor badges row */}
+                <div className="flex flex-col items-center justify-center pb-3 lg:pb-0 px-4 py-1">
+                    <div className="flex flex-row gap-4 items-end justify-center overflow-x-auto whitespace-nowrap">
+                        {/* Card style for each badge */}
+                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center  hover:border-white-500 transition-all duration-300">
+                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        </div>
+                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
+                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        </div>
+                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
+                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        </div>
+                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
+                            <img src="/2021.png" alt="2021 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        </div>
+                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
+                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        </div>
+                    </div>
+                    <h2 className="font-bold text-base xs:text-lg sm:text-xl md:text-2xl mt-3 mb-2 text-center text-neutral-400 leading-tight max-w-xs sm:max-w-md md:max-w-lg">5-TIME TRAVELER’S CHOICE AWARD</h2>
+                </div>
+                
+                {/* Google and TripAdvisor review badges */}
+                <div className="flex flex-col gap-8 items-center justify-center max-w-xs min-w-[220px] mb-3 lg:mb-0">
+                    <div className="w-full bg-white-100 border-white-800 p-3 shadow-md flex items-center gap-3 rounded-lg hover:border-white-500 hover:scale-105 transition-all duration-300 cursor-pointer">
+                        <img src="/google.png" alt="Google" className="w-10 h-10 drop-shadow-md transition-transform duration-300" />
+                        <span className="font-bold text-lg text-neutral-400">Google Review 1000+</span>
+                    </div>
+                    <div className="w-full bg-white-100 border-white-800 p-3 shadow-md flex items-center gap-3 rounded-lg hover:border-white-500 hover:scale-105 transition-all duration-300 cursor-pointer">
+                        <img src="/tripadvisor.png" alt="TripAdvisor" className="w-10 h-10 drop-shadow-md transition-transform duration-300" />
+                        <span className="font-bold text-lg text-neutral-400">TripAdvisor No 1</span>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Award subtext */}
+            <div className="mt-4 text-center">
+                <p className="font-semibold text-base text-neutral-400 md:text-xl">Proudly recognized by TripAdvisor for 5 consecutive years for outstanding service and guest satisfaction.</p>
+            </div>
         </div>
-    )
+    );
 }
 
 export default Reviews;

@@ -53,11 +53,11 @@ const MasonryGrid = () => {
               transition: { duration: 0.3 }
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <img
               src={images[0]}
               alt="Gallery image 1"
-              className="w-full h-full object-cover rounded-xl shadow-lg transform transition-all duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover shadow-lg transform transition-all duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 rounded-xl transition-all duration-300"></div>
           </motion.div>
@@ -73,13 +73,13 @@ const MasonryGrid = () => {
               transition: { duration: 0.3 }
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <img
               src={images[1]}
               alt="Gallery image 2"
-              className="w-full h-full object-cover rounded-xl shadow-lg transform transition-all duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover shadow-lg transform transition-all duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 rounded-xl transition-all duration-300"></div>
+            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 transition-all duration-300"></div>
           </motion.div>
 
           <motion.div 
@@ -93,13 +93,13 @@ const MasonryGrid = () => {
               transition: { duration: 0.3 }
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <img
               src={images[2]}
               alt="Gallery image 3"
-              className="w-full h-full object-cover rounded-xl shadow-lg transform transition-all duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover shadow-lg transform transition-all duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 rounded-xl transition-all duration-300"></div>
+            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 transition-all duration-300"></div>
           </motion.div>
 
           <motion.div 
@@ -113,13 +113,13 @@ const MasonryGrid = () => {
               transition: { duration: 0.3 }
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <img
               src={images[3]}
               alt="Gallery image 4"
-              className="w-full h-full object-cover rounded-xl shadow-lg transform transition-all duration-500 group-hover:scale-110"
+              className="w-full h-full object-cover shadow-lg transform transition-all duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 rounded-xl transition-all duration-300"></div>
+            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 transition-all duration-300"></div>
           </motion.div>
 
           {/* Second row - 2 images with enhanced styling */}
@@ -134,13 +134,13 @@ const MasonryGrid = () => {
               transition: { duration: 0.3 }
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <img
               src={images[4]}
               alt="Gallery image 5"
-              className="w-full h-full object-cover rounded-xl shadow-lg transform transition-all duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover shadow-lg transform transition-all duration-500 group-hover:scale-105"
             />
-            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 rounded-xl transition-all duration-300"></div>
+            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 transition-all duration-300"></div>
           </motion.div>
 
           <motion.div 
@@ -154,13 +154,13 @@ const MasonryGrid = () => {
               transition: { duration: 0.3 }
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <img
               src={images[5]}
               alt="Gallery image 6"  
-              className="w-full h-full object-cover rounded-xl shadow-lg transform transition-all duration-500 group-hover:scale-105"
+              className="w-full h-full object-cover shadow-lg transform transition-all duration-500 group-hover:scale-105"
             />
-            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 rounded-xl transition-all duration-300"></div>
+            <div className="absolute inset-0 ring-2 ring-transparent group-hover:ring-white-300 transition-all duration-300"></div>
           </motion.div>
         </div>
       </motion.div>

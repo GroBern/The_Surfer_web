@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const PackageCard = ({ image, title, subtitle, description, features, index }) => {
   return (
     <motion.div 
-      className="bg-white rounded-xl shadow-lg overflow-hidden mb-4 sm:mb-6 md:mb-8 w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto transform transition-all duration-500 hover:scale-102 hover:shadow-xl border border-gray-100"
+      className="bg-white shadow-lg overflow-hidden mb-4 sm:mb-6 md:mb-8 w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto transform transition-all duration-500 hover:scale-102 hover:shadow-xl border border-gray-100"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.2, ease: "easeOut" }}
@@ -64,7 +64,7 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
               {features.map((feature, featureIndex) => (
                 <motion.li 
                   key={featureIndex} 
-                  className="text-xs sm:text-sm text-gray-700 flex items-start py-1 px-2 rounded hover:bg-cyan-50 transition-colors duration-200"
+                  className="text-xs sm:text-sm text-gray-700 flex items-start py-1 px-2 hover:bg-cyan-50 transition-colors duration-200"
                   initial={{ opacity: 0, x: 15 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ 
@@ -87,7 +87,7 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
             transition={{ duration: 0.5, delay: index * 0.2 + 0.4 }}
             viewport={{ once: true }}
           >
-            <button className="group border-2 border-cyan-500 hover:border-cyan-600 text-cyan-500 hover:text-cyan-600 px-4 sm:px-6 py-2 rounded-full font-bold text-xs sm:text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:ring-opacity-50 w-full sm:w-auto">
+            <button className="group border-2 border-cyan-500 hover:border-cyan-600 text-cyan-500 hover:text-cyan-600 px-4 sm:px-6 py-2 font-bold text-xs sm:text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-cyan-300 focus:ring-opacity-50 w-full sm:w-auto">
               <span className="relative z-10">BOOK NOW</span>
             </button>
           </motion.div>

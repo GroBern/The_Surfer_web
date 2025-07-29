@@ -11,6 +11,10 @@ import Difference from "../components/Difference";
 import Activities from "../components/Activities";
 import MasonryGrid from "../components/Follow";
 import Reviews from "../components/Reviews";
+import FAQ from "../components/FAQ";
+import Blogs from "../components/Blogs";
+import { Footer } from "../components/Footer";
+import {FooterStats} from "../components/Footer";
 
 
 const Home = () => {
@@ -55,33 +59,46 @@ const Home = () => {
     },
   ];
 
+
+  // Arrange all four cards in a single row, then the paragraph below
+  const cardList = Object.values(cards);
+
   return (
     <div>
       <Header />
       <SurfingJourney />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 py-10">
-        {Object.values(cards).map((card, index) => (
-          <motion.div
-            key={index}
-            className="transform transition-transform duration-300 hover:scale-105 "
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: index * 0.1 }}
-            viewport={{ once: true, amount: 0.3 }}
-          >
-            <SurfCampCard
-              pic={card.pic}
-              topic={card.topic}
-              body1={card.body1}
-              body2={card.body2}
-            />
-          </motion.div>
-        ))}
+
+      {/* Custom grid for surf camp cards and Difference paragraph */}
+      <div className="max-w-7xl mx-auto px-6 py-10">
+        {/* All four cards in the same row */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {cardList.map((card, index) => (
+            <motion.div
+              key={index}
+              className="transform transition-transform duration-300 hover:scale-105"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              viewport={{ once: true, amount: 0.3 }}
+            >
+              <SurfCampCard
+                pic={card.pic}
+                topic={card.topic}
+                body1={card.body1}
+                body2={card.body2}
+              />
+            </motion.div>
+          ))}
+        </div>
+        {/* Difference paragraph below first two cards, aligned with them */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-2">
+            <Difference />
+          </div>
+        </div>
       </div>
 
-
-      <Difference />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -116,6 +133,13 @@ const Home = () => {
 
       <Reviews />
 
+      <FAQ />
+
+      <Blogs />
+
+      <FooterStats />
+
+      <Footer />
     </div>
   );
 };

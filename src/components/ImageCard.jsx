@@ -8,7 +8,7 @@ const ImageCard = ({ image, title, subtitle, index }) => (
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8, delay: index * 0.2 }}
     viewport={{ once: true, amount: 0.3 }}
-    className="relative overflow-hidden rounded-lg shadow-2xl group cursor-pointer"
+    className="relative overflow-hidden shadow-2xl group cursor-pointer mb-10"
   >
     <div 
       className="aspect-[4/5] bg-cover bg-center transform transition-transform duration-700 group-hover:scale-110"
