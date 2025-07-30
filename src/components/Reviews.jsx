@@ -44,7 +44,7 @@ const ReviewsCard = (props) => {
                 transition={{ duration: 0.5, delay: 0.6 }}
                 viewport={{ once: true }}
             >
-                <p className='text-gray-600 xl:text-[16px] ml-1 leading-relaxed hover:text-gray-800 transition-colors duration-300'>
+                <p className='text-gray-600 xl:text-[.875rem] ml-1 leading-relaxed hover:text-gray-800 transition-colors duration-300'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, 
                     dolorem corporis beatae quod id enim voluptatem rem odio recusandae illo repudiandae reiciendis vitae, 
                     tempore, sit fugit nostrum iste. Aliquam, voluptas?
@@ -92,19 +92,19 @@ const Reviews = () => {
                     <div className="flex flex-row gap-4 items-end justify-center overflow-x-auto whitespace-nowrap">
                         {/* Card style for each badge */}
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center  hover:border-white-500 transition-all duration-300">
-                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2021.png" alt="2021 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                            <img src="/2021.png" alt="2021 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-28 h-28 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
                     </div>
                     <h2 className="font-bold text-base xs:text-lg sm:text-xl md:text-2xl mt-3 mb-2 text-center text-neutral-400 leading-tight max-w-xs sm:max-w-md md:max-w-lg">5-TIME TRAVELER’S CHOICE AWARD</h2>

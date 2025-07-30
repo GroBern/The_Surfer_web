@@ -1,9 +1,9 @@
 import React from "react";
 
-const SurfCampCard = ({ pic, topic, body1, body2, link }) => {
+const SurfCampCard = ({ pic, topic, body1, body2, link, index }) => {
   return (
     <div
-      className="relative bg-cover bg-center h-[400px] flex items-end justify-center shadow-lg"
+      className={`${index === 0 || index === 1 ? 'relative bg-cover bg-center h-[400px] flex items-end justify-center shadow-lg' : 'relative bg-cover bg-center h-[500px] flex items-end justify-center shadow-lg'}`}
       style={{
         backgroundImage: `url(/${pic})`,
       }}

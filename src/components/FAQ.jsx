@@ -56,7 +56,7 @@ const FAQ = () => {
               className={`w-full flex justify-between items-center px-6 py-5 focus:outline-none transition-all duration-200 ${openIndex === idx ? 'rounded-t-xl bg-neutral-50/40' : 'rounded-xl hover:bg-neutral-50'}`}
               onClick={() => handleToggle(idx)}
             >
-              <span className={`text-lg md:text-xl font-bold text-left transition-colors duration-200 ${openIndex === idx ? 'text-neutral-400' : 'text-neutral-400'}`}>
+              <span className={`text-lg md:text-lg font-bold text-left transition-colors duration-200 ${openIndex === idx ? 'text-neutral-400' : 'text-neutral-400'}`}>
                 {item.question}
               </span>
               <span className={`text-3xl font-bold transition-colors duration-200 ${openIndex === idx ? 'text-neutral-400' : 'text-neutral-400'}`}>
@@ -64,7 +64,7 @@ const FAQ = () => {
               </span>
             </button>
             {openIndex === idx && item.answer && (
-              <div className="px-6 pb-6 text-base md:text-lg text-neutral-500 animate-fadein">
+              <div className="px-6 pb-6 text-base xl:text-[.875rem] text-neutral-500 animate-fadein">
                 {item.answer.split('\n').map((line, i) => (
                   <p key={i} className="mb-2 last:mb-0 leading-relaxed">{line}</p>
                 ))}

@@ -45,10 +45,10 @@ export default function SurfurWay() {
   ];
 
   return (
-    <div className="bg-blue-400/50 py-16 mt-6">
+    <div className="bg-blue-400/50 py-10 mt-6">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
             Why Choose The Surfer Surf Camps?
           </h2>

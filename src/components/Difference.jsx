@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const SurfingJourney = () => {
   return (
     <motion.div 
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-1.5' 
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-[-5rem]' 
       id='Journey'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -12,7 +12,7 @@ const SurfingJourney = () => {
       viewport={{ once: false, amount: 0.3 }}
     >
       <motion.h1 
-        className='text-sm sm:text-base md:text-lg lg:text-base font-bold text-center text-neutral-400'
+        className='text-sm sm:text-base md:text-lg lg:text-base font-bold mt-5 mb-3 text-center text-neutral-400'
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
@@ -37,7 +37,7 @@ const SurfingJourney = () => {
       </motion.p>
 
         <div className='flex justify-center w-full'>
-          <button className='px-1.5 lg:px-2 mt-1 py-0.5 text-[8px] lg:text-[10px] rounded-full border border-black text-black transition-all duration-300 hover:bg-black-200 hover:text-black hover:scale-102 hover:shadow-lg transform'>
+          <button className='px-1.5 lg:px-2 mt-5 py-0.5 text-[8px] lg:text-[10px] rounded-full border border-black text-black transition-all duration-300 hover:bg-black-200 hover:text-black hover:scale-102 hover:shadow-lg transform'>
             BOOK NOW
           </button>
         </div>

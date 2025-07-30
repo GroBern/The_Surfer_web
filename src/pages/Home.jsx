@@ -93,6 +93,7 @@ const Home = () => {
                 body1={card.body1}
                 body2={card.body2}
                 link={card.link}
+                index={index}
               />
             </motion.div>
           ))}
@@ -114,7 +115,7 @@ const Home = () => {
         <ChooseSurfCamp />
       </motion.div>
 
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 mb-16">
         {/* Destinations Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {destinations.map((destination, index) => (
