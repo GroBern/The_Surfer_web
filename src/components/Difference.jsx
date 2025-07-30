@@ -9,14 +9,14 @@ const SurfingJourney = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.3 }}
     >
       <motion.h1 
         className='text-sm sm:text-base md:text-lg lg:text-base font-bold mt-5 mb-3 text-center text-neutral-400'
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         Difference between Beach Camp And Ts2 Camp
       </motion.h1>
@@ -26,7 +26,7 @@ const SurfingJourney = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         Main difference is the location and the room Standard !<br />
         Beach camp located right next to the beach With swim pool, TS2 camp rooms are With Basic standard simple private rooms With Fan and
