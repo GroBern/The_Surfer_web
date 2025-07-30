@@ -95,7 +95,7 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
 const SurfLessonPackages = () => {
   const packages = [
     {
-      image: "/pkg1.JPEG",
+      image: "/pkg1.jpg",
       title: "Moderate Surf Lesson Package",
       subtitle: "Beginners, Level 01 / Level 02 / Intermediate",
       description: "OR MODERATE SURF GUIDING Advanced",
@@ -131,7 +131,7 @@ const SurfLessonPackages = () => {
       ]
     },
     {
-      image: "/pkg3.jpeg",
+      image: "/pkg3.jpg",
       title: "Surf and Yoga Package",
       subtitle: "Surf Lessons OR Surf Guiding with Yoga",
       description: "",

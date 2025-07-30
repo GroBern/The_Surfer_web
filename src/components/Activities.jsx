@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const Activities = () => {
   const activities = [
-    { pic: "act1.JPEG", title: "Have An Unforgettable Surf Holiday" },
-    { pic: "act2.JPG", title: "Meet New People From All Around The World" },
+    { pic: "act1.jpg", title: "Have An Unforgettable Surf Holiday" },
+    { pic: "act2.jpg", title: "Meet New People From All Around The World" },
     { pic: "act3.jpg", title: "Make New Friends For Life" },
-    { pic: "act4.JPG", title: "Boat Party" },
+    { pic: "act4.jpg", title: "Boat Party" },
   ];
 
   return (

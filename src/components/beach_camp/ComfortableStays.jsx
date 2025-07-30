@@ -5,12 +5,12 @@ const ComfortableStays = () => {
   const staysData = [
     {
       id: 1,
-      image: "/beach_camp/I1.jpeg",
+      image: "/beach_camp/I1.jpg",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam"
     },
     {
       id: 2,
-      image: "/beach_camp/I2.JPEG",
+      image: "/beach_camp/I2.jpg",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam"
     },
     {

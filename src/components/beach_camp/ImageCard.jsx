@@ -26,7 +26,7 @@ const ImageCard = () => {
           whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
         >
           <img 
-            src="/beach_camp/I1.jpeg" 
+            src="/beach_camp/I1.jpg" 
             alt="Beach Camp Rooftop"
             className='w-full h-48 md:h-60 object-cover'
           />
@@ -41,7 +41,7 @@ const ImageCard = () => {
           whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
         >
           <img 
-            src="/beach_camp/I2.JPEG" 
+            src="/beach_camp/I2.jpg" 
             alt="Pool Area"
             className='w-full h-48 md:h-60 object-cover'
           />

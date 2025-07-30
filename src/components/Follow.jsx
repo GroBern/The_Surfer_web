@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 
 const images = [
     "/f1.jpg",
-    "/f2.JPEG",      
+    "/f2.jpg",      
     "/f3.jpg",
-    "/f4.JPG",
-    "/f5.JPG",
-    "/f6.JPG",
+    "/f4.jpg",
+    "/f5.jpg",
+    "/f6.jpg",
 ];
 
 const MasonryGrid = () => {

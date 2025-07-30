@@ -5,13 +5,13 @@ const SurfDays = () => {
   const surfDaysData = [
     {
       id: 1,
-      image: "/beach_camp/I1.jpeg",
+      image: "/beach_camp/I1.jpg",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in",
       imagePosition: "left"
     },
     {
       id: 2,
-      image: "/beach_camp/I2.JPEG",
+      image: "/beach_camp/I2.jpg",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in",
       imagePosition: "right"
     },

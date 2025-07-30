@@ -7,15 +7,15 @@ const blogs = [
     text: '5 health benefits of surfing that are just out of this world',
   },
   {
-    img: '/b2.JPG',
+    img: '/b2.jpg',
     text: 'Surf Ethics—5 rules that every beginner needs to know about ',
   },
   {
-    img: '/b3.JPG',
+    img: '/b3.jpg',
     text: 'The Surfer—Brace Yourself for an Ultimate Surfing and Yoga Experience',
   },
   {
-    img: '/b4.JPEG',
+    img: '/b4.jpg',
     text: '5 BASIC SURFING TIPS FOR BEGINNERS',
   },
   {

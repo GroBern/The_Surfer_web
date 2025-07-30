@@ -18,12 +18,12 @@ const BeachCamp = () => {
     },
     {
       id: 3,
-      image: 'country/I8.JPG',
+      image: 'country/I8.jpg',
       alt: 'Beach activities'
     },
     {
       id: 4,
-      image: 'country/act2.JPG',
+      image: 'country/act2.jpg',
       alt: 'Surf lesson'
     }
   ];

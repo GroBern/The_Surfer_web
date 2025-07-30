@@ -10,7 +10,7 @@ const Packages = () => {
       des: "OR",
       description: "MODERATE SURF GUIDING",
       features: "Advanced Surfers",
-      image: "/beach_camp/I1.jpeg",
+      image: "/beach_camp/I1.jpg",
       pricing: [
         { type: "DORM BED", price: "350 €" },
         { type: "PRIVATE SINGLE ROOM", price: "600 €" },
@@ -37,7 +37,7 @@ const Packages = () => {
       des: "OR",
       description: "FULL SURF GUIDING PACKAGE",
       features: "Advanced Surfers",
-      image: "/beach_camp/I2.JPEG",
+      image: "/beach_camp/I2.jpg",
       pricing: [
         { type: "DORM BED", price: "450 €" },
         { type: "PRIVATE SINGLE ROOM", price: "700 €" },
