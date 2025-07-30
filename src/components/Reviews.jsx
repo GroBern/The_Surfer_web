@@ -86,9 +86,9 @@ const Reviews = () => {
 
 
             {/* Awards and review badges section - single row on large screens, stacked on mobile */}
-            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6 mt-12 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10">
+            <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-6 mt-12 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-2">
                 {/* TripAdvisor badges row */}
-                <div className="flex flex-col items-center justify-center pb-3 lg:pb-0 px-4 py-1">
+                <div className="flex flex-col items-center justify-start pb-3 lg:pb-0 px-4 py-1">
                     <div className="flex flex-row gap-4 items-end justify-center overflow-x-auto whitespace-nowrap">
                         {/* Card style for each badge */}
                         <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center  hover:border-white-500 transition-all duration-300">

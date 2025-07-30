@@ -39,9 +39,22 @@ const FAQ = () => {
     setOpenIndex(openIndex === idx ? null : idx);
   };
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.4,
+        delay: 0.1 * i,
+        ease: 'easeOut'
+      }
+    })
+  };
+
   return (
     <div className="py-12 px-2 sm:px-0 flex flex-col items-center min-h-screen bg-[#fafafa]">
-      <motion.h1 
+      <motion.h1
         className="text-3xl md:text-4xl font-bold text-neutral-400 text-center mb-10"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -50,20 +63,30 @@ const FAQ = () => {
       >
         FAQ
       </motion.h1>
+
       <div className="w-full max-w-5xl flex flex-col gap-5">
         {faqData.map((item, idx) => (
-          <div
+          <motion.div
             key={idx}
-            className={`bg-white shadow-lg border border-neutral-100 transition-all duration-300 ${openIndex === idx ? 'ring-2 ring-neutral-200' : 'hover:shadow-xl hover:border-neutral-100'}`}
+            className={`bg-white shadow-lg border border-neutral-100 rounded-xl transition-all duration-300 ${
+              openIndex === idx ? 'ring-2 ring-neutral-200' : ''
+            }`}
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            custom={idx}
+            viewport={{ once: true, amount: 0.4 }}
           >
             <button
-              className={`w-full flex justify-between items-center px-6 py-5 focus:outline-none transition-all duration-200 ${openIndex === idx ? 'rounded-t-xl bg-neutral-50/40' : 'rounded-xl hover:bg-neutral-50'}`}
+              className={`w-full flex justify-between items-center px-6 py-5 focus:outline-none transition-all duration-200 ${
+                openIndex === idx ? 'rounded-t-xl bg-neutral-50/40' : 'hover:bg-neutral-50'
+              }`}
               onClick={() => handleToggle(idx)}
             >
-              <span className={`text-lg md:text-lg font-bold text-left transition-colors duration-200 ${openIndex === idx ? 'text-neutral-400' : 'text-neutral-400'}`}>
+              <span className="text-lg md:text-lg font-bold text-left text-neutral-400">
                 {item.question}
               </span>
-              <span className={`text-3xl font-bold transition-colors duration-200 ${openIndex === idx ? 'text-neutral-400' : 'text-neutral-400'}`}>
+              <span className="text-3xl font-bold text-neutral-400">
                 {openIndex === idx ? '−' : '+'}
               </span>
             </button>
@@ -74,7 +97,7 @@ const FAQ = () => {
                 ))}
               </div>
             )}
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
