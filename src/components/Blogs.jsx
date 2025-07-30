@@ -4,27 +4,27 @@ import { motion } from 'framer-motion';
 const blogs = [
   {
     img: '/b1.jpg',
-    text: 'Lorem ipsum dolor sit amet, consectetur',
+    text: '5 health benefits of surfing that are just out of this world',
   },
   {
     img: '/b2.JPG',
-    text: 'Lorem ipsum dolor sit amet, consectetur',
+    text: 'Surf Ethics—5 rules that every beginner needs to know about ',
   },
   {
     img: '/b3.JPG',
-    text: 'Lorem ipsum dolor sit amet, consectetur',
+    text: 'The Surfer—Brace Yourself for an Ultimate Surfing and Yoga Experience',
   },
   {
     img: '/b4.JPEG',
-    text: 'Lorem ipsum dolor sit amet, consectetur',
+    text: '5 BASIC SURFING TIPS FOR BEGINNERS',
   },
   {
     img: '/b5.jpg',
-    text: 'Lorem ipsum dolor sit amet, consectetur',
+    text: 'WHAT ARE SURFBOARD FINS?—HOW MANY TYPES ARE THERE?',
   },
   {
     img: '/b6.jpg',
-    text: 'Lorem ipsum dolor sit amet, consectetur',
+    text: 'CURRENT SITUATION IN SRI LANKA',
   },
 ];
 

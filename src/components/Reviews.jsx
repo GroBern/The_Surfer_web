@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import { desc } from 'framer-motion/client';
 
 const ReviewsCard = (props) => {
     return (
@@ -45,9 +46,7 @@ const ReviewsCard = (props) => {
                 viewport={{ once: true }}
             >
                 <p className='text-gray-600 xl:text-[.875rem] ml-1 leading-relaxed hover:text-gray-800 transition-colors duration-300'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, 
-                    dolorem corporis beatae quod id enim voluptatem rem odio recusandae illo repudiandae reiciendis vitae, 
-                    tempore, sit fugit nostrum iste. Aliquam, voluptas?
+                   {props.description}
                 </p>
             </motion.div>                     
         </motion.div>
@@ -56,10 +55,10 @@ const ReviewsCard = (props) => {
 
 const Reviews = () => {
     const reviewsData = [
-        { id: 1, img: "/review.png", name: "John" },
-        { id: 2, img: "/review.png", name: "Rose" },
-        { id: 3, img: "/review.png", name: "Kevin" },
-        { id: 4, img: "/review.png", name: "David" }            
+        { id: 1, img: "/review.png", name: "Koen Slinger", description: "We had a blast. Great atmosphere, friendly and helpfull staff, great accomodation where everything is set-up for a stay without any hassle..." },
+        { id: 2, img: "/review.png", name: "Brittany Jaide", description: "Loved my stay here! Great service and friendly staff. The surfing instructors were super knowledgable and caring and loved the variety of night..." },
+        { id: 3, img: "/review.png", name: "Sanya Shah", description: "Truly amazing!!!! I surfed for the first time in Weligama. The instructors here are incredible! Especially Emily, Nadiv, Maya, and Matty. They helped me..." },
+        { id: 4, img: "/review.png", name: "Helen", description: "It is my second time at the Surfer and I can’t wait to come back. Another amazing and super chilled stay, friendly people, excellent surf instructors... " }
     ];
 
     return (
@@ -80,6 +79,7 @@ const Reviews = () => {
                         key={review.id}
                         img={review.img} 
                         name={review.name}
+                        description={review.description}
                     />
                 ))}
             </div>

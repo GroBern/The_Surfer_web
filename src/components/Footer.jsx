@@ -1,4 +1,5 @@
 import React from 'react';
+import { Facebook, Instagram,  } from 'lucide-react';
 
 const FooterStats = () => (
   <div className="bg-sky-200 py-10 w-full">
@@ -25,10 +26,8 @@ const Footer = () => (
       <div className="flex flex-col items-center md:items-start mb-8 mr-10 pr-10 md:mb-0">
         <img src="/logo1.png" alt="The Surfer Logo" className="h-20 w-auto mb-6" />
         <div className="flex gap-4">
-          <a href="#" className="bg-white/90 rounded-full p-2 hover:bg-cyan-200 transition"><img src="/insta.png" alt="Instagram" className="h-6 w-6" /></a>
-          <a href="#" className="bg-white/90 rounded-full p-2 hover:bg-cyan-200 transition"><img src="/fb.png" alt="Facebook" className="h-6 w-6" /></a>
-          <a href="#" className="bg-white/90 rounded-full p-2 hover:bg-cyan-200 transition"><img src="/twt.png" alt="Twitter" className="h-6 w-6" /></a>
-          <a href="#" className="bg-white/90 rounded-full p-2 hover:bg-cyan-200 transition"><img src="/yt.png" alt="YouTube" className="h-6 w-6" /></a>
+          <a href="#" className="bg-white rounded-full p-2 hover:bg-cyan-200 transition"><Facebook className="h-6 w-6 text-[#0a67b3]" /></a>
+          <a href="#" className="bg-white rounded-full p-2 hover:bg-cyan-200 transition"><Instagram className="h-6 w-6 text-[#0a67b3]" /></a>
         </div>
       </div>
       <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-25">

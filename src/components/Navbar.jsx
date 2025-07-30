@@ -71,13 +71,13 @@ const Navbar = () => {
           ☰
         </button>
         
-        <button className={`hidden md:block px-4 lg:px-8 py-2 text-sm lg:text-base rounded-full border transition-all duration-300 hover:scale-105 hover:shadow-lg transform ${
+        <a href='https://main.d7z80586kqd0r.amplifyapp.com/' target='_blank' className={`hidden md:block px-4 lg:px-8 py-2 text-sm lg:text-base rounded-full border transition-all duration-300 hover:scale-105 hover:shadow-lg transform ${
           isScrolled 
             ? 'border-gray-800 text-gray-800 hover:bg-gray-800 hover:text-white' 
             : 'border-white text-white hover:bg-white hover:text-gray-800'
         }`}>
           BOOK NOW
-        </button>
+        </a>
       </div>
 
       {/* Mobile Menu with Animation */}

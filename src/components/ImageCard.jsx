@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const ImageCard = ({ image, title, subtitle, index }) => (
+const ImageCard = ({ image, title, subtitle, link, index }) => (
   <motion.div
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -16,6 +16,7 @@ const ImageCard = ({ image, title, subtitle, index }) => (
         backgroundImage: `url(/${image})`,
       }}
     >
+      <a href={link}>
       <div className="absolute inset-0 bg-black/20 group-hover:bg-opacity-30 transition-all duration-500">
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
           <motion.h2 
@@ -38,6 +39,7 @@ const ImageCard = ({ image, title, subtitle, index }) => (
           </motion.p>
         </div>
       </div>
+       </a>
     </div>
   </motion.div>
 );

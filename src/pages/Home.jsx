@@ -57,10 +57,12 @@ const Home = () => {
     {
       image: "srilanka.jpg",
       title: "Sri Lanka",
+      link: "/srilanka",
     },
     {
       image: "morocco.jpg",
       title: "Morocco",
+      link: "/morocco",
     },
   ];
 
@@ -123,7 +125,7 @@ const Home = () => {
               key={index}
               image={destination.image}
               title={destination.title}
-              subtitle={destination.subtitle}
+              link={destination.link}
               index={index}
             />
           ))}
