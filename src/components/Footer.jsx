@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram,  } from 'lucide-react';
+import Whatsapp from './Whatsapp';
 
 const FooterStats = () => (
   <div className="bg-sky-200 py-10 w-full">
@@ -52,6 +53,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    <Whatsapp/>
   </footer>
 );
 
