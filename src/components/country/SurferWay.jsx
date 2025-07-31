@@ -52,7 +52,7 @@ export default function SurfurWay() {
       transition={{ duration: 0.8, delay: 0.2 }}
       viewport={{ once: true, amount: 0.3 }}
     >
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">

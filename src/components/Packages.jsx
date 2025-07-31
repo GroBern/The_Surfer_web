@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const PackageCard = ({ image, title, subtitle, description, features, index }) => {
   return (
     <motion.div 
-      className="bg-white shadow-lg overflow-hidden mb-4 sm:mb-6 md:mb-8 w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto transform transition-all duration-500 hover:scale-102 hover:shadow-xl border border-gray-100"
+      className="bg-white shadow-lg overflow-hidden mb-4 sm:mb-6 md:mb-8 w-full max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto transform transition-all duration-500 hover:scale-102 hover:shadow-xl border border-gray-100"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: index * 0.2, ease: "easeOut" }}

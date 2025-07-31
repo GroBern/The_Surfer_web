@@ -44,7 +44,7 @@ const BeachCamp = () => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: false, amount: 0.3 }}
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto">
         <Motion.div 
           className="text-center mb-12"
           initial={{ opacity: 0, y: 30 }}

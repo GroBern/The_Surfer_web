@@ -39,9 +39,9 @@ const Home = () => {
 
     card3: {
       pic: "surfcard3.jpg",
-      topic: "The Wave Surf Camp",
+      topic: "Coming Soon: The Wave Surf Camp",
       body1:
-        "Create lasting memories with your loved ones on a fun-filled family surf holiday. Safe, guided, and tailored for all age groups.",
+        "Our other Sri Lankan surf camp is coming online soon. Stay tuned!",
       link: "/wave-camp",
     },
 
@@ -98,7 +98,7 @@ const Home = () => {
 
 
       {/* Custom grid for surf camp cards and Difference paragraph */}
-      <div className="max-w-7xl mx-auto px-6 py-10">
+      <div className="max-w-7xl mx-auto py-10">
         {/* All four cards in the same row */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {cardList.map((card, index) => (
@@ -138,7 +138,7 @@ const Home = () => {
         <ChooseSurfCamp />
       </motion.div>
 
-      <div className="max-w-6xl mx-auto px-6 mb-16">
+      <div className="max-w-6xl mx-auto mb-16">
         {/* Destinations Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {destinations.map((destination, index) => (

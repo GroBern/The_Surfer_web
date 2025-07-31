@@ -11,7 +11,7 @@ const Activities = () => {
 
   return (
     <div className="py-16 px-4 bg-gray-50">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <motion.h1 
             className="text-4xl md:text-5xl font-bold text-neutral-400 mb-8 tracking-wider"

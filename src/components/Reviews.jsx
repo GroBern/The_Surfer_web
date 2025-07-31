@@ -89,22 +89,22 @@ const Reviews = () => {
             <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-6 mt-12 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-2">
                 {/* TripAdvisor badges row */}
                 <div className="flex flex-col items-center justify-start pb-3 lg:pb-0 px-4 py-1">
-                    <div className="flex flex-row gap-4 items-end justify-center overflow-x-auto whitespace-nowrap">
+                    <div className="flex flex-row gap-4 items-end justify-center whitespace-nowrap">
                         {/* Card style for each badge */}
-                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center  hover:border-white-500 transition-all duration-300">
-                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        <div className="bg-white shadow-md flex flex-col items-center justify-center transition-all duration-300">
+                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-80 h-20 md:w-80 md:h-40 lg:w-80 lg:h-50 drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
-                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        <div className="bg-white shadow-md flex flex-col items-center justify-center transition-all duration-300">
+                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-80 h-20 md:w-80 md:h-40 lg:w-80 lg:h-50 drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
-                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        <div className="bg-white shadow-md flex flex-col items-center justify-center transition-all duration-300">
+                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-80 h-20 md:w-80 md:h-40 lg:w-80 lg:h-50 drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
-                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2021.png" alt="2021 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        <div className="bg-white shadow-md flex flex-col items-center justify-center transition-all duration-300">
+                            <img src="/2021.png" alt="2021 TripAdvisor" className="w-80 h-20 md:w-80 md:h-40 lg:w-80 lg:h-50 drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
-                        <div className="bg-white border-white-300 p-3 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-38 h-38 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300" />
+                        <div className="bg-white shadow-md flex flex-col items-center justify-center transition-all duration-300">
+                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-80 h-20 md:w-80 md:h-40 lg:w-80 lg:h-50 drop-shadow-md hover:scale-105 transition-transform duration-300" />
                         </div>
                     </div>
                     <h2 className="font-bold text-base xs:text-lg sm:text-xl md:text-2xl mt-3 mb-2 text-center text-neutral-400 leading-tight max-w-xs sm:max-w-md md:max-w-lg">5-TIME TRAVELER’S CHOICE AWARD</h2>

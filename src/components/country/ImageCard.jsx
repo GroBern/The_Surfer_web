@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'; // eslint-disable-line no-unused-vars
 const ImageCard = () => {
   return (
     <motion.div 
-      className="max-w-6xl mx-auto p-2"
+      className="max-w-7xl mx-auto p-2"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
