@@ -1,3 +1,4 @@
+import { link } from 'framer-motion/client'
 import React, { useState, useEffect } from 'react'
 
 const Navbar = () => {
@@ -10,12 +11,14 @@ const Navbar = () => {
     {
       id: 'srilanka',
       name: 'Surf Camps Sri Lanka',
-      image: 'srilanka.jpg'
+      image: 'srilanka.jpg',
+      link: '/srilanka'
     },
     {
       id: 'morocco',
       name: 'Surf Camps Morocco',
-      image: 'morocco.jpg'
+      image: 'morocco.jpg',
+      link: '/morocco'
     }
   ]
 
@@ -109,13 +112,16 @@ const Navbar = () => {
                             }`}
                           onMouseEnter={() => setSelectedCountry(country.id)}
                         >
+                          <a href={country.link} className="text-sm font-medium transition-colors hover:text-cyan-500">
                           <div className="flex items-center p-3 gap-3">
+                            
                             <img
                               src={country.image}
                               alt={country.name}
                               className="w-12 h-12 rounded-lg object-cover"
                             />
                             <div className="flex-1 flex items-center justify-between">
+                              
                               <h4 className={`text-sm font-medium transition-colors ${selectedCountry === country.id
                                   ? isScrolled
                                     ? 'text-cyan-700'
@@ -136,8 +142,11 @@ const Navbar = () => {
                                 }`}>
                                 →
                               </span>
+                              
                             </div>
+                            
                           </div>
+                          </a>
                         </div>
                       ))}
                     </div>

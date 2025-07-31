@@ -11,7 +11,7 @@ const ImageCard = () => {
       viewport={{ once: true, amount: 0.3 }}
     >
       <Motion.div 
-        className='grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl items-start'
+        className='grid grid-cols-1 md:grid-cols-3 gap-6 w-full w-8xl items-start'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.1 }}

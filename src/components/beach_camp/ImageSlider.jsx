@@ -62,7 +62,7 @@ const ImageSlider = () => {
 
   return (
     <Motion.div 
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-16 mb-10 px-4'
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-16 mb-10'
       id='ImageSlider'
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -70,7 +70,7 @@ const ImageSlider = () => {
       viewport={{ once: true, amount: 0.1 }}
     >
       <Motion.div 
-        className='relative w-full max-w-7xl mx-auto'
+        className='relative max-w-8xl mx-auto'
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
@@ -86,7 +86,7 @@ const ImageSlider = () => {
           </svg>
         </button>
 
-        <div className='overflow-hidden mx-16'>
+        <div className='overflow-hidden'>
           <Motion.div 
             className='flex gap-6'
             animate={{ x: -currentSlide * (100 / imagesPerView) + '%' }}
@@ -124,7 +124,7 @@ const ImageSlider = () => {
       </Motion.div>
 
       <Motion.div 
-        className='relative w-full max-w-7xl mx-auto mt-12'
+        className='relative max-w-8xl mx-auto mt-12'
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2 }}
@@ -140,7 +140,7 @@ const ImageSlider = () => {
           </svg>
         </button>
 
-        <div className='overflow-hidden mx-16'>
+        <div className='overflow-hidden'>
           <Motion.div 
             className='flex gap-6'
             animate={{ x: -currentSlide2 * (100 / imagesPerView) + '%' }}

@@ -32,7 +32,7 @@ const ComfortableStays = () => {
         From budget-friendly shared dorms to deluxe private rooms, we offer spaces designed with simplicity, cleanliness, and island vibes in mind. Every room includes A/C, free Wi-Fi, daily cleaning, and quality bedding—because your surf experience deserves good rest too.
       </Motion.p>
 
-      <div className='w-full max-w-6xl'>
+      <div className='w-full max-w-8xl'>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8'>
           <Motion.div
             className='flex flex-col overflow-hidden'
