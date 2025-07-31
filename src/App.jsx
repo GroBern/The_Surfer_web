@@ -6,6 +6,7 @@ import WaveCamp from './pages/WaveCamp'
 import StyleCamp from './pages/StyleCamp'
 import Srilanka from './pages/Srilanka'
 import Morocco from './pages/Morocco'
+import ContactUs from './pages/ContactUs'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/style-camp' element={<StyleCamp />} />
         <Route path='/srilanka' element={<Srilanka />} />
         <Route path='/morocco' element={<Morocco />} />
+        <Route path='/contact' element={<ContactUs />} />
 
       </Routes>
     </BrowserRouter>
