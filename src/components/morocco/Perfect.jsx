@@ -18,7 +18,7 @@ const Perfect = () => {
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        Life at The Surfer Beach Camp
+        Why Morocco Is Perfect for Surfers
       </motion.h1>
       <motion.p
         className='text-xs sm:text-sm md:text-base leading-relaxed text-center max-w-8xl text-neutral-400 mt-4 px-1'
@@ -27,13 +27,19 @@ const Perfect = () => {
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        The Surfer Beach Camp is our flagship location, set right on Weligama Beach with direct access to some
-        of Sri Lanka’s best beginner-friendly waves. This is where surf energy, social connection, and
-        laid-back island living meet.<br /> <br />
-        From sunrise yoga and daily surf lessons to beachfront dinners and rooftop jam sessions, life at The Surfer Beach Camp moves to the rhythm of the ocean. With 6× Tripadvisor
-        Travelers’ Choice Awards and a loyal global community, we’re proud to be one of Sri Lanka’s most trusted surf experiences.<br /> <br />
+        Morocco is one of the most diverse surf destinations in the world,
+        offering consistent Atlantic swells, warm hospitality, and rich cultural
+        immersion. From world-class point breaks to beginner-friendly beach breaks,
+        this coast is a playground for surfers of all levels.<br /> <br />
 
-        Come as a solo traveler, a couple, or a crew of friends — and leave with salty skin, surf skills, and lifelong memories.
+        Taghazout and its surrounding areas have become a surf haven thanks to perfect waves,
+        laid-back lifestyle, and breathtaking desert-meets-ocean views. You’ll enjoy sunny skies,
+        welcoming locals, vibrant souks, and that magical Moroccan energy that makes every surf
+        session feel like an adventure.<br /> <br />
+
+        Even though our camp is just a short walk from the beach, you’re never far from the action.
+        We believe the best surf journeys happen when you balance ocean time with exploration,
+        relaxation, and unforgettable cultural experiences.
         <br /> <br />
       </motion.p>
     </motion.div>

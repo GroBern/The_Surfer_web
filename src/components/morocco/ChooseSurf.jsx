@@ -22,23 +22,23 @@ export default function ChooseSurfCamp() {
   const pillars = [
     {
       icon: Award,
-      title: "5★ Tripadvisor Travelers' Choice Award",
-      description: "Recognized globally for excellence in surf experiences and service."
+      title: "Unique Locations",
+      description: "Each camp offers its own vibe—from beachfront energy in Sri Lanka to cultural calm in Morocco."
     },
     {
       icon: Users,
-      title: "Certified Local Coaches",
-      description: "Trained surfing from the region who know the waves better than anyone."
+      title: "Expert Local Coaches",
+      description: "Learn from certified instructors who know every break like the back of their hand."
     },
     {
       icon: Home,
-      title: "Beachfront Locations",
-      description: "Wake up to the waves in both Sri Lanka and Morocco."
+      title: "Comfortable Accommodations",
+      description: "From cozy dorms to deluxe rooms, we offer clean and stylish stays that fit every budget."
     },
     {
       icon: Globe,
       title: "Global Surf Community",
-      description: "Join a tribe of surfers from over 60 countries."
+      description: "Join surfers from over 50 countries and create friendships that last long after your trip ends."
     }
   ];
 
@@ -53,13 +53,9 @@ export default function ChooseSurfCamp() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-400 mb-2">
-            Sri Lanka’s Surf Capital: Why We Chose Weligama
+            Why Choose The Surfer Surf Camps?
           </h2>
-          <p className="text-neutral-400 text-lg">
-            Weligama is one of Sri Lanka’s top surf towns — ideal for beginners and intermediates.
-            With consistent waves year-round, a fun local vibe, and easy access to neighboring beaches
-            like Midigama and Mirissa, it’s the perfect base for a surf adventure.
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

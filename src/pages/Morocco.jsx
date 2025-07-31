@@ -1,14 +1,14 @@
 import React from 'react'
-import Header from '../components/Header'
-import Perfect from '../components/country/Perfect'
+import Header from '../components/morocco/Header'
+import Perfect from '../components/morocco/Perfect'
 import ImageCard from '../components/country/ImageCard'
-import ChooseSurfCamp from '../components/country/ChooseSurf'
+import ChooseSurfCamp from '../components/morocco/ChooseSurf'
 import CountryCard from '../components/country/CountryCard'
 import BeachCamp from '../components/country/BeachCamp'
-import TS2Camp from '../components/country/TS2Camp'
+import SurfStyle from '../components/morocco/SurfStyle'
 import SurferCamp from '../components/country/SurferCamp'
 import SurferWay from '../components/country/SurferWay'
-import SurfPackageCard from '../components/country/Packages'
+import SurfPackageCard from '../components/morocco/Packages'
 import Reviews from '../components/country/Reviews'
 import Activities from '../components/country/Activities'
 import Follow from '../components/country/Follow'
@@ -21,9 +21,7 @@ const Morocco = () => {
         <Perfect />
         <ImageCard />
         <ChooseSurfCamp />
-        <BeachCamp />
-        <TS2Camp />
-        <SurferCamp />
+        <SurfStyle />
         <SurferWay />
         <SurfPackageCard />
         <Reviews />

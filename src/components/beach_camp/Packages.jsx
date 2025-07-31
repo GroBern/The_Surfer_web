@@ -93,14 +93,14 @@ const Packages = () => {
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
-      viewport={{ once: false, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.1 }}
     >
       <Motion.h1 
         className='text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 mb-8 font-bold text-center text-neutral-400'
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.1, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.3 }}
       >
         Book Your Surf Camp Experience
       </Motion.h1>
@@ -113,7 +113,7 @@ const Packages = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: index * 0.05 }}
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.2 }}
             whileHover={{ y: -2, transition: { duration: 0.2 } }}
           >
             <div className='flex flex-col lg:flex-row items-start gap-6'>
@@ -122,7 +122,7 @@ const Packages = () => {
                 initial={{ opacity: 0, scale: 0.98 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.25, delay: index * 0.03 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
                 whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
               >
                 <img 
@@ -137,14 +137,14 @@ const Packages = () => {
                 initial={{ opacity: 0, x: 15 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.25, delay: index * 0.04 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
               >
                 <Motion.div 
                   className='mb-4'
                   initial={{ opacity: 0, y: 8 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.25, delay: index * 0.05 }}
-                  viewport={{ once: false, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.3 }}
                 >
                   <h2 className='text-lg lg:text-xl font-bold text-neutral-700 mb-2'>
                     {pkg.title}
@@ -160,7 +160,7 @@ const Packages = () => {
                   initial={{ opacity: 0, y: 8 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.25, delay: index * 0.06 }}
-                  viewport={{ once: false, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.3 }}
                 >
                   <div className='space-y-2'>
                     {pkg.pricing.map((price, priceIndex) => (
@@ -185,7 +185,7 @@ const Packages = () => {
               initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.25, delay: index * 0.07 }}
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.3 }}
             >
               <h3 className='text-sm sm:text-base font-semibold text-neutral-700 mb-4 text-center'>
                 Following Included in the package
@@ -198,7 +198,7 @@ const Packages = () => {
                     initial={{ opacity: 0, x: -3 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2, delay: (index * 0.03) + (itemIndex * 0.01) }}
-                    viewport={{ once: false, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.3 }}
                   >
                     <span className='text-neutral-600 mr-2 mt-1 text-xs'>•</span>
                     <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed'>{item}</p>

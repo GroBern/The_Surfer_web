@@ -42,7 +42,7 @@ const BeachCamp = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.3 }}
     >
       <div className="max-w-7xl mx-auto">
         <Motion.div 
@@ -50,16 +50,13 @@ const BeachCamp = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-400 mb-6">
-            The Wave Surfer Camp
+            Coming Soon: The Wave Surf Camp
           </h2>
           <p className="text-neutral-400 text-base leading-relaxed max-w-4xl mx-auto mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad 
-            minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in 
-            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril 
-            delenit augue duis dolore te feugait nulla facilisi.
+            Our other Sri Lankan surf camp is coming online soon. Stay tuned!
           </p>
           <Motion.button
             className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-2 font-medium transition-colors duration-300"
@@ -75,7 +72,7 @@ const BeachCamp = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
         >
           <div className="relative overflow-hidden h-72 md:h-80">
             <div 
@@ -89,7 +86,7 @@ const BeachCamp = () => {
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: false, amount: 0.3 }}
+                  viewport={{ once: true, amount: 0.3 }}
                   whileHover={{ scale: 1.05, y: -5 }}
                 >
                   <img

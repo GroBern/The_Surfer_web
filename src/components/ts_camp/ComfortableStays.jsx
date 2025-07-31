@@ -19,7 +19,7 @@ const ComfortableStays = () => {
         transition={{ duration: 0.3, delay: 0.1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
       >
-        Comfortable Stays For Every Surfer
+        Rooms at TS2 Surf Camp
       </Motion.h1>
 
       <Motion.p
@@ -29,7 +29,9 @@ const ComfortableStays = () => {
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        From budget-friendly shared dorms to deluxe private rooms, we offer spaces designed with simplicity, cleanliness, and island vibes in mind. Every room includes A/C, free Wi-Fi, daily cleaning, and quality bedding—because your surf experience deserves good rest too.
+        All rooms at TS2 are thoughtfully designed for comfort and simplicity.
+        Whether you’re sharing a dorm or relaxing in a private room,
+        you’ll have everything you need to feel rested and ready to surf.
       </Motion.p>
 
       <div className='w-full max-w-6xl'>
@@ -65,7 +67,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Shared Dorm Rooms</strong> – Great for solo travelers who love meeting people.
+                <strong>Mixed Dorm Room</strong> – Budget-friendly and social.
               </p>
             </Motion.div>
           </Motion.div>
@@ -101,7 +103,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Private Double Rooms</strong> – For couples or solo guests who want privacy with style.
+                <strong>Female Dorm Room</strong> – Quiet, clean, and ideal for solo female travelers.
               </p>
             </Motion.div>
           </Motion.div>
@@ -137,7 +139,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Deluxe Pool View Rooms</strong> – Spacious, modern, and just a few steps from the pool.
+                <strong>Private Double Room</strong> – Perfect for couples or solo guests wanting privacy.
               </p>
             </Motion.div>
           </Motion.div>
@@ -173,7 +175,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Female-Only Dorms</strong> – Safe and comfortable for solo female adventurers.
+                <strong>Private Twin Room</strong> – For friends or siblings sharing a trip.
               </p>
             </Motion.div>
           </Motion.div>

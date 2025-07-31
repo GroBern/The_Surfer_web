@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion as Motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const BeachCamp = () => {
+const SurfStyle = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
@@ -53,10 +53,11 @@ const BeachCamp = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-400 mb-6">
-            TS2 Camp – Sri Lanka
+            The Surfer SurfStyle Camp – Morocco
           </h2>
           <p className="text-neutral-400 text-base leading-relaxed max-w-4xl mx-auto mb-8">
-            A quieter, budget-friendly version of our main camp, just a few minutes from the surf. Great for solo travelers and those wanting a relaxed atmosphere.
+            Located in a peaceful area just a short walk from the beach, this camp blends traditional Moroccan 
+            charm with surf, yoga, and comfort. Expect rooftop views, cultural meals, and a more grounded surf vibe.
           </p>
           <Motion.button
             className="bg-blue-400 hover:bg-blue-500 text-white px-6 py-2 font-medium transition-colors duration-300"
@@ -129,4 +130,4 @@ const BeachCamp = () => {
   );
 };
 
-export default BeachCamp;
+export default SurfStyle;

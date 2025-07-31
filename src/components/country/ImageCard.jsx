@@ -1,106 +1,68 @@
 import React from 'react';
 import { motion } from 'framer-motion'; // eslint-disable-line no-unused-vars
+import SurfCampCard from "../../components/SurfCard";
+import Difference from "../../components/Difference";
 
 const ImageCard = () => {
+  const cards = {
+      card1: {
+        pic: "surfcard1.jpg",
+        topic: "The Surfer Beach Surf Camp",
+        body1:
+          "Join us at the ultimate destination for surf enthusiasts. Experience the thrill of riding the waves and enjoy the serene beauty of the ocean.",
+        link: "/beach-camp",
+      },
+  
+      card2: {
+        pic: "surfcard2.jpg",
+        topic: "TS2 Surf Camp",
+        body1:
+          "Feel the magic of surfing as the sun sets over the horizon. Our guided sunset sessions are a perfect way to end your beach day.",
+        link: "/ts2-camp",
+      },
+  
+      card3: {
+        pic: "surfcard3.jpg",
+        topic: "Coming Soon: The Wave Surf Camp",
+        body1:
+          "Our other Sri Lankan surf camp is coming online soon. Stay tuned!",
+        link: "/wave-camp",
+      },
+    };
+
+    const cardList = Object.values(cards);
+
   return (
-    <motion.div 
-      className="max-w-7xl mx-auto p-2"
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      viewport={{ once: false, amount: 0.3 }}
-    >
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <motion.div 
-          className="lg:col-span-2"
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.1, ease: "easeOut" }}
-          viewport={{ once: false, amount: 0.3 }}
-        >
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-4 mb-6">
-            <motion.div 
-              className="overflow-hidden shadow-lg hover:transform hover:-translate-y-2 transition-transform duration-300"
-              initial={{ opacity: 0, y: 20 }}
+      <div className="max-w-7xl mx-auto py-10">
+        {/* All four cards in the same row */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {cardList.map((card, index) => (
+            <motion.div
+              key={index}
+              className="transform transition-transform duration-300 hover:scale-105"
+              initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.5 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              viewport={{ once: true, amount: 0.3 }}
             >
-              <img 
-                src="country/I1.jpg" 
-                alt="Surfers with boards" 
-                className="w-full h-64 object-cover"
+              <SurfCampCard
+                pic={card.pic}
+                topic={card.topic}
+                body1={card.body1}
+                body2={card.body2}
+                link={card.link}
+                index={index}
               />
             </motion.div>
-            <motion.div 
-              className="overflow-hidden shadow-lg hover:transform hover:-translate-y-2 transition-transform duration-300"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.3, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.5 }}
-            >
-              <img 
-                src="country/I2.jpg" 
-                alt="Surf training" 
-                className="w-full h-64 object-cover"
-              />
-            </motion.div>
+          ))}
+        </div>
+        {/* Difference paragraph below first two cards, aligned with them */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-2">
+            <Difference />
           </div>
-          
-          <motion.div 
-            className="text-center"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.4, ease: "easeOut" }}
-            viewport={{ once: false, amount: 0.5 }}
-          >
-            <motion.h2 
-              className="text-lg font-semibold text-neutral-400 leading-relaxed mb-4"
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: 0.5, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.5 }}
-            >
-              Lorem ipsum dolor sit amet,
-            </motion.h2>
-            <motion.p 
-              className="text-sm leading-relaxed text-neutral-400 mx-4"
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: 0.6, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.5 }}
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod 
-              tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis 
-              nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis 
-              autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-            </motion.p>
-          </motion.div>
-        </motion.div>
-        
-        <motion.div 
-          className="lg:col-span-1"
-          initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
-          viewport={{ once: false, amount: 0.3 }}
-        >
-          <motion.div 
-            className="overflow-hidden shadow-lg hover:transform hover:-translate-y-2 transition-transform duration-300 h-80"
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.4, delay: 0.3, ease: "easeOut" }}
-            viewport={{ once: false, amount: 0.5 }}
-          >
-            <img 
-              src="country/I3.jpg" 
-              alt="Sunset surfing" 
-              className="w-full h-80 min-h-80 lg:min-h-96 object-cover"
-            />
-          </motion.div>
-        </motion.div>
+        </div>
       </div>
-    </motion.div>
   );
 };
 
