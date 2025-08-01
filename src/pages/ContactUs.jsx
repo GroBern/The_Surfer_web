@@ -18,14 +18,12 @@ const ContactUs = () => {
         <Map />
         {/* Policy and Inquiries in row layout */}
         <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-            <div className="flex justify-center">
+            <div className="">
               <Inquiries />
             </div>
-            <div className="flex justify-center">
+            <div className="">
               <Policy />
             </div>
-          </div>
         </div>
         <Footer />
     </div>

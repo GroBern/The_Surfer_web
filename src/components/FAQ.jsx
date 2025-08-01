@@ -68,7 +68,7 @@ const FAQ = () => {
         {faqData.map((item, idx) => (
           <motion.div
             key={idx}
-            className={`bg-white shadow-lg border border-neutral-100 rounded-xl transition-all duration-300 ${
+            className={`bg-white shadow-lg border border-neutral-100 transition-all duration-300 ${
               openIndex === idx ? 'ring-2 ring-neutral-200' : ''
             }`}
             variants={fadeInUp}

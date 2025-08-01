@@ -11,7 +11,7 @@ const contact = () => {
       viewport={{ once: true, amount: 0.3 }}
     >
       <motion.div 
-        className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8"
+        className="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-8"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
@@ -19,7 +19,7 @@ const contact = () => {
       >
         
         <motion.div 
-          className="bg-white shadow-lg p-12 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
+          className="bg-white shadow-lg p-6 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
           initial={{ opacity: 0, y: 50, scale: 0.9 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           whileHover={{ y: -8, scale: 1.03 }}
@@ -27,7 +27,7 @@ const contact = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.h3 
-            className="text-lg font-bold text-black mb-8"
+            className="text-lg font-bold text-black mb-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.3, ease: "easeOut" }}
@@ -36,7 +36,7 @@ const contact = () => {
             THE SURFER<br />BEACH CAMP
           </motion.h3>
           <motion.div 
-            className="text-sm text-black font-semibold leading-relaxed mb-8"
+            className="text-sm text-black font-semibold leading-relaxed mb-6"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.4, ease: "easeOut" }}
@@ -74,7 +74,7 @@ const contact = () => {
         </motion.div>
 
         <motion.div 
-          className="bg-white shadow-lg p-12 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
+          className="bg-white shadow-lg p-6 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
           initial={{ opacity: 0, y: 50, scale: 0.9 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           whileHover={{ y: -8, scale: 1.03 }}
@@ -82,16 +82,16 @@ const contact = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.h3 
-            className="text-lg font-bold text-black mb-15"
+            className="text-lg font-bold text-black mb-13"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.4, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            TS2 – WELIGAMA
+            TS2 SURF CAMP
           </motion.h3>
           <motion.div 
-            className="text-sm text-black font-semibold leading-relaxed mb-8"
+            className="text-sm text-black font-semibold leading-relaxed mb-6"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.5, ease: "easeOut" }}
@@ -129,7 +129,115 @@ const contact = () => {
         </motion.div>
 
         <motion.div 
-          className="bg-white shadow-lg p-12 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
+          className="bg-white shadow-lg p-6 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
+          initial={{ opacity: 0, y: 50, scale: 0.9 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          whileHover={{ y: -8, scale: 1.03 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <motion.h3 
+            className="text-lg font-bold text-black mb-13"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.4, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            THE WAVE SURF CAMP
+          </motion.h3>
+          <motion.div 
+            className="text-sm text-black font-semibold leading-relaxed mb-11"
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.5, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <p>Coming Soon</p>
+            
+          </motion.div>
+          <motion.div 
+            className="flex justify-center"
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4, delay: 0.6, ease: "backOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <motion.div 
+              className="w-12 h-12 bg-black rounded-full flex items-center justify-center"
+              whileHover={{ scale: 1.1, rotate: 5 }}
+              transition={{ duration: 0.2 }}
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                strokeWidth={2} 
+                stroke="white" 
+                className="w-6 h-6"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25s-7.5-4.108-7.5-11.25a7.5 7.5 0 1115 0z" />
+              </svg>
+            </motion.div>
+          </motion.div>
+        </motion.div>
+
+        <motion.div 
+          className="bg-white shadow-lg p-6 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
+          initial={{ opacity: 0, y: 50, scale: 0.9 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          whileHover={{ y: -8, scale: 1.03 }}
+          transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <motion.h3 
+            className="text-lg font-bold text-black mb-13"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.4, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            THE SURFER SURFSTYLE
+          </motion.h3>
+          <motion.div 
+            className="text-sm text-black font-semibold leading-relaxed mb-6"
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.5, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <p>Tamraght,</p>
+            <p>Agadir 80023</p>
+          </motion.div>
+          <motion.div 
+            className="flex justify-center"
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4, delay: 0.6, ease: "backOut" }}
+            viewport={{ once: true, amount: 0.5 }}
+          >
+            <motion.div 
+              className="w-12 h-12 bg-black rounded-full flex items-center justify-center"
+              whileHover={{ scale: 1.1, rotate: 5 }}
+              transition={{ duration: 0.2 }}
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                strokeWidth={2} 
+                stroke="white" 
+                className="w-6 h-6"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25s-7.5-4.108-7.5-11.25a7.5 7.5 0 1115 0z" />
+              </svg>
+            </motion.div>
+          </motion.div>
+        </motion.div>
+
+        <motion.div 
+          className="bg-white shadow-lg p-6 text-center hover:shadow-xl hover:transform hover:-translate-y-2 transition-all duration-300"
           initial={{ opacity: 0, y: 50, scale: 0.9 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           whileHover={{ y: -8, scale: 1.03 }}
@@ -137,7 +245,7 @@ const contact = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.h3 
-            className="text-lg font-bold text-black mb-15"
+            className="text-lg font-bold text-black mb-13"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.5, ease: "easeOut" }}
@@ -146,7 +254,7 @@ const contact = () => {
             EMAIL
           </motion.h3>
           <motion.div 
-            className="text-sm text-black font-semibold leading-relaxed mb-20"
+            className="text-[12px] text-black font-semibold leading-relaxed mb-20"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.6, ease: "easeOut" }}

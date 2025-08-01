@@ -25,7 +25,7 @@ const SurfDays = () => {
       <div className='w-full max-w-7xl space-y-12'>
 
         <Motion.div
-          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row'
+          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row mb-22 mt-8'
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
@@ -66,7 +66,7 @@ const SurfDays = () => {
         </Motion.div>
 
         <Motion.div
-          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row-reverse'
+          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row-reverse mb-22'
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
@@ -108,7 +108,7 @@ const SurfDays = () => {
         </Motion.div>
 
         <Motion.div
-          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row'
+          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row mb-22'
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
@@ -157,7 +157,7 @@ const SurfDays = () => {
         </Motion.div>
 
         <Motion.div
-          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row-reverse'
+          className='flex flex-col lg:flex-row items-center gap-8 lg:gap-12 lg:flex-row-reverse mb-22'
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}

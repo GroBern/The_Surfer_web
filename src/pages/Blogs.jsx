@@ -144,7 +144,7 @@ const Blog = () => {
                         return (
                             <div
                                 key={blog.id}
-                                className={`rounded overflow-hidden shadow-lg flex flex-col justify-between ${isEven ? "bg-white text-[#0a67b3]" : "bg-[#0a67b3] text-white"
+                                className={`overflow-hidden shadow-lg flex flex-col justify-between ${isEven ? "bg-white text-[#0a67b3]" : "bg-[#0a67b3] text-white"
                                     } transition duration-300 hover:shadow-xl`}
                             >
                                 <img

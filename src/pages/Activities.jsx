@@ -32,14 +32,14 @@ const Activities = () => {
 
             {/* Image Grid */}
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-10">
-                <div className="w-full h-72 overflow-hidden rounded-lg shadow-md">
+                <div className="w-full h-72 overflow-hidden shadow-md">
                     <img
                         src="/activities/main1.jpg"
                         alt=""
                         className="w-full h-full object-cover"
                     />
                 </div>
-                <div className="w-full h-72 overflow-hidden rounded-lg shadow-md">
+                <div className="w-full h-72 overflow-hidden shadow-md">
                     <img
                         src="/activities/main2.jpg"
                         alt=""
@@ -50,7 +50,7 @@ const Activities = () => {
 
             {/* Video Banner */}
             <div className="max-w-7xl mx-auto px-4 pb-10">
-                <div className="w-full h-72 md:h-96 overflow-hidden rounded-lg shadow-md">
+                <div className="w-full h-72 md:h-96 overflow-hidden shadow-md">
                     <img
                         src="/activities/people1.jpg"
                         alt=""
@@ -65,7 +65,7 @@ const Activities = () => {
                     <img
                         src="/activities/people.jpg"
                         alt=""
-                        className="w-full rounded-lg shadow-md object-cover"
+                        className="w-full shadow-md object-cover"
                     />
                 </div>
                 <div className="w-full md:w-1/2 text-right">
@@ -92,7 +92,7 @@ const Activities = () => {
                     <img
                         src="/activities/friends.jpg"
                         alt=""
-                        className="w-full rounded-lg shadow-md object-cover"
+                        className="w-full shadow-md object-cover"
                     />
                 </div>
             </div>
@@ -103,7 +103,7 @@ const Activities = () => {
                     <img
                         src="/activities/boat.jpg"
                         alt=""
-                        className="w-full rounded-lg shadow-md object-cover"
+                        className="w-full shadow-md object-cover"
                     />
                 </div>
                 <div className="w-full md:w-1/2 text-right">
@@ -118,7 +118,7 @@ const Activities = () => {
 
             {/* Second Video */}
             {/* <div className="max-w-7xl mx-auto px-4 pb-10">
-                <div className="w-full h-72 md:h-96 overflow-hidden rounded-lg shadow-md">
+                <div className="w-full h-72 md:h-96 overflow-hidden shadow-md">
                     <img
                         src="/activities/people3.jpg"
                         alt=""
