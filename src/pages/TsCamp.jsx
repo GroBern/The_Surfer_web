@@ -15,8 +15,8 @@ const TsCamp = () => {
       <LifeAtSurfCamp />
       <ImageCard />
       <Packages />
-      <SurfDays />
       <ComfortableStays />
+      <SurfDays />
       {/* <ImageSlider /> */}
       <Footer />
     </div>

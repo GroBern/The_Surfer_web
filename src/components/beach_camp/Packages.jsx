@@ -12,22 +12,20 @@ const Packages = () => {
       features: "Advanced Surfers",
       image: "/beach_camp/I1.jpg",
       pricing: [
-        { type: "DORM BED", price: "350 €" },
-        { type: "PRIVATE SINGLE ROOM", price: "600 €" },
-        { type: "PRIVATE DOUBLE ROOM per person", price: "490 €" },
-        { type: "PRIVATE TRIPLE ROOM per person", price: "450 €" }
+        { type: "MIXED DORMITORY BED - Max ( 05 people )", price: "350 €" },
+        { type: "PRIVATE SINGLE ROOM Per Week", price: "600 €" },
+        { type: "PRIVATE DOUBLE ROOM Per Person Per Week", price: "490 €" },
+        { type: "PRIVATE TRIPLE ROOM Per Person Per Week", price: "450 €" }
       ],
       included: [
         "07 nights accommodation",
-        "04 surf lessons or guiding sessions",
-        "Surf Theory",
-        "Everyday Breakfast",
-        "06 Dinners including Special Buffet Dinners",
-        "02 Complimentary Yoga Sessions",
-        "Free Transport to Different Surf Spots",
-        "Free Use Of Surf Boards During Surf Sessions",
-        "Small Groups Surf Teaching 6ppl Max per Group",
-        "Daily Social Fun Activities"
+        "Breakfast Everyday",
+        "Dinner - Everyday except Sunday",
+        "Surf Theory Classes",
+        "Video Analysis",
+        "Daily Social Activities",
+        "Surf Lessons - 06 surf lessons or guiding",
+        "Yoga - 02 sessions / week",
       ]
     },
     {
@@ -39,22 +37,20 @@ const Packages = () => {
       features: "Advanced Surfers",
       image: "/beach_camp/I2.jpg",
       pricing: [
-        { type: "DORM BED", price: "450 €" },
-        { type: "PRIVATE SINGLE ROOM", price: "700 €" },
-        { type: "PRIVATE DOUBLE ROOM", price: "550 €" },
-        { type: "PRIVATE TRIPLE ROOM per person", price: "500 €" }
+        { type: "MIXED DORMITORY BED - Max ( 05 people )", price: "450 €" },
+        { type: "PRIVATE SINGLE ROOM Per Week", price: "700 €" },
+        { type: "PRIVATE DOUBLE ROOM Per Person Per Week", price: "550 €" },
+        { type: "PRIVATE TRIPLE ROOM Per Person Per Week", price: "500 €" }
       ],
       included: [
-        "07 nights accommodation",
-        "11 surf lessons or guiding sessions",
-        "Surf Theory",
-        "Everyday Breakfast",
-        "06 Dinners including Special Buffet Dinners",
-        "02 Complimentary Yoga Sessions",
-        "Free Transport to Different Surf Spots",
-        "Free Use Of Surf Boards During Surf Sessions",
-        "Small Groups Surf Teaching 6ppl Max per Group",
-        "Daily Social Fun Activities"
+       "07 nights accommodation",
+        "Breakfast Everyday",
+        "Dinner - Everyday except Sunday",
+        "Surf Theory Classes",
+        "Video Analysis",
+        "Daily Social Activities",
+        "Surf Lessons - 11 surf lessons",
+        "Yoga - 02 sessions / week",
       ]
     },
     {
@@ -66,22 +62,20 @@ const Packages = () => {
       features: "with Yoga",
       image: "/beach_camp/I3.jpg",
       pricing: [
-        { type: "DORM BED", price: "400 €" },
-        { type: "PRIVATE SINGLE ROOM", price: "650 €" },
-        { type: "PRIVATE DOUBLE ROOM per person", price: "520 €" },
-        { type: "PRIVATE TRIPLE ROOM per person", price: "490 €" }
+        { type: "MIXED DORMITORY BED - Max ( 05 people )", price: "400 €" },
+        { type: "PRIVATE SINGLE ROOM Per Week", price: "650 €" },
+        { type: "PRIVATE DOUBLE ROOM Per Person Per Week", price: "520 €" },
+        { type: "PRIVATE TRIPLE ROOM Per Person Per Week", price: "490 €" }
       ],
       included: [
         "07 nights accommodation",
-        "Morning or evening everyday yoga",
-        "06 surf lessons or guiding sessions",
-        "Surf Theory",
-        "Everyday Breakfast",
-        "06 Dinners including Special Buffet Dinners",
-        "Free Transport to Different Surf Spots",
-        "Free Use Of Surf Boards During Surf Sessions",
-        "Small Groups Surf Teaching 6ppl Max per Group",
-        "Daily Social Fun Activities"
+        "Breakfast Everyday",
+        "Dinner - Everyday except Sunday",
+        "Surf Theory Classes",
+        "Video Analysis",
+        "Daily Social Activities",
+        "Surf Lessons - 06 surf lessons or guiding / week",
+        "Yoga - sunrise or sunset everyday",
       ]
     }
   ]
@@ -102,7 +96,7 @@ const Packages = () => {
         transition={{ duration: 0.3, delay: 0.1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
       >
-        Book Your Surf Camp Experience
+        Book Your Surf Experience
       </Motion.h1>
 
       <div className='w-full max-w-4xl space-y-12'>

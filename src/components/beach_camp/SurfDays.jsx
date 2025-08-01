@@ -5,7 +5,7 @@ const SurfDays = () => {
  
   return (
     <Motion.div
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-16 px-4'
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden my-16 px-4'
       id='SurfDays'
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -102,7 +102,6 @@ const SurfDays = () => {
               small-group surf lesson led by our experienced, certified instructors. Whether you’re a complete
               beginner or progressing through intermediate skills, every session is personalized. We teach with
               patience, local knowledge, and the belief that anyone can surf with the right mindset and guidance.
-              We also include <strong> surf theory sessions, ocean safety tips,</strong> and optional <strong>  video analysis </strong>  for those looking to advance faster.
             </p>
           </Motion.div>
         </Motion.div>
@@ -189,12 +188,14 @@ const SurfDays = () => {
               Food, Friends & Firelight – Evenings to Remember
             </h2>
             <p className='text-xs sm:text-sm lg:text-base text-neutral-600 leading-relaxed text-justify lg:text-left'>
-              When the sun begins to set, the vibe at camp comes alive. Expect beachfront BBQs, rooftop music
-              nights, board games, and laughter under the stars. Some nights we host <strong>theme dinners,
-                karaoke, </strong>or partner with local artists for live acoustic sets.
+              When the sun begins to set, the vibe at camp comes alive. We're bringing the fun with game nights, drinking games,
+              quiz battles, karaoke sessions, theme dinners, movie nights, and epic night outs.
+              Plus, enjoy soulful tunes from local acoustic artists and loads of daily social activities that’ll keep
+              the good times rolling every evening. Whether you're here to chill, connect, or just vibe out – there’s
+              always something happening!
               <br /> <br />
               This is where you bond with people from all over the world. Solo travelers become friends
-              for life. Surf buddies become family. And every sunset feels a little more special than the last
+              for life. Surf buddies become family. And every sunset feels a little more special than the last.
             </p>
           </Motion.div>
         </Motion.div>

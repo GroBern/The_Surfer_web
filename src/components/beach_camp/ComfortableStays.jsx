@@ -19,7 +19,7 @@ const ComfortableStays = () => {
         transition={{ duration: 0.3, delay: 0.1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
       >
-        Comfortable Stays For Every Surfer
+        Stay in Style, the Island Way
       </Motion.h1>
 
       <Motion.p
@@ -29,7 +29,10 @@ const ComfortableStays = () => {
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        From budget-friendly shared dorms to deluxe private rooms, we offer spaces designed with simplicity, cleanliness, and island vibes in mind. Every room includes A/C, free Wi-Fi, daily cleaning, and quality bedding—because your surf experience deserves good rest too.
+        Whether you're a solo surfer, a beach-loving couple, or a group of wave-chasers — we've got
+         the perfect spot for you. Think breezy rooms, tropical touches, and all the essentials for
+          a chill stay just steps from the sea. Laid-back comfort meets island style — because everyone
+           deserves to sleep easy after a day in the surf.
       </Motion.p>
 
       <div className='w-full max-w-8xl'>
@@ -65,7 +68,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Shared Dorm Rooms</strong> – Great for solo travelers who love meeting people.
+                <strong>Mixed Dormitory</strong> – Great for solo travelers who love meeting people.
               </p>
             </Motion.div>
           </Motion.div>
@@ -101,7 +104,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Private Double Rooms</strong> – For couples or solo guests who want privacy with style.
+                <strong>Private Single Room Ensuite</strong> – Your Personal Surf Haven Perfect for solo travelers craving privacy and comfort, for a peaceful night’s rest after a day riding the waves and soaking up the sun.
               </p>
             </Motion.div>
           </Motion.div>
@@ -137,7 +140,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Deluxe Pool View Rooms</strong> – Spacious, modern, and just a few steps from the pool.
+                <strong>Private Double / Twin Room Ensuite</strong> – For Solo, Couple or Friends want privacy with style for a good night sleep.
               </p>
             </Motion.div>
           </Motion.div>
@@ -173,7 +176,7 @@ const ComfortableStays = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className='text-xs sm:text-sm text-neutral-600 leading-relaxed text-center'>
-                <strong>Female-Only Dorms</strong> – Safe and comfortable for solo female adventurers.
+                <strong>Private Triple  Room Ensuite</strong> – for a group of friends or a small family, our triple rooms are all about shared moments and smooth comfort. With plenty of space.
               </p>
             </Motion.div>
           </Motion.div>

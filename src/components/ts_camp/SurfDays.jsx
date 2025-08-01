@@ -5,7 +5,7 @@ const SurfDays = () => {
 
   return (
     <Motion.div
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-16 px-4'
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden my-16 px-4'
       id='SurfDays'
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
