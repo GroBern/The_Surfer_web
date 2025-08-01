@@ -64,7 +64,7 @@ const FAQ = () => {
         FAQ
       </motion.h1>
 
-      <div className="w-full max-w-6xl flex flex-col gap-5">
+      <div className="w-full max-w-6xl flex flex-col gap-5 mb-15">
         {faqData.map((item, idx) => (
           <motion.div
             key={idx}

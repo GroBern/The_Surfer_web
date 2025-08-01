@@ -4,7 +4,7 @@ import { motion as Motion } from 'framer-motion'
 const LifeAtSurfCamp = () => {
   return (
     <Motion.div
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-1.5'
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-12'
       id='Journey'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}

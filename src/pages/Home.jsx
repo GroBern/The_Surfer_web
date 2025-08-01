@@ -87,7 +87,7 @@ const Home = () => {
         ></video>
 
         <div className="container relative z-10 text-center mx-auto py-4 px-4 sm:px-6 md:px-20 lg:px-32 text-white">
-          <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl xl:text-[120px] font-bold mt-16 sm:mt-8 md:mt-4 max-w-full sm:max-w-3xl mx-auto">
+          <h2 className="font-[montserrat] text-5xl sm:text-6xl md:text-7xl lg:text-9xl xl:text-[120px] font-bold mt-16 sm:mt-8 md:mt-4 max-w-full sm:max-w-3xl mx-auto">
             The Surfer <br /> Surf Camps
           </h2>
         </div>

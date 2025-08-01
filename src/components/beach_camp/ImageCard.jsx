@@ -4,7 +4,7 @@ import { motion as Motion } from 'framer-motion'
 const ImageCard = () => {
   return (
     <Motion.div 
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-8 px-4'
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-12 px-4'
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
