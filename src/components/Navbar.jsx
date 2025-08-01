@@ -206,15 +206,15 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <a href="#Header" className={`cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 ${isScrolled
+          <a href="/activities" className={`cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 ${isScrolled
               ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)]'
               : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)]'
             }`}>ACTIVITIES</a>
-          <a href="#Header" className={`cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 ${isScrolled
+          <a href="/faq" className={`cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 ${isScrolled
               ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)]'
               : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)]'
             }`}>FAQ</a>
-          <a href="#Header" className={`cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 ${isScrolled
+          <a href="/blogs" className={`cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 ${isScrolled
               ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)]'
               : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)]'
             }`}>BLOGS</a>
@@ -262,7 +262,7 @@ const Navbar = () => {
                 DESTINATION
               </a>
               <a
-                href="#Header"
+                href="/activities"
                 className={`py-3 px-4 cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 rounded-xl text-sm font-medium ${isScrolled
                     ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)] hover:bg-gray-100'
                     : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)] hover:bg-white/20'
@@ -272,7 +272,7 @@ const Navbar = () => {
                 ACTIVITIES
               </a>
               <a
-                href="#Header"
+                href="/faq"
                 className={`py-3 px-4 cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 rounded-xl text-sm font-medium ${isScrolled
                     ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)] hover:bg-gray-100'
                     : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)] hover:bg-white/20'
@@ -282,7 +282,7 @@ const Navbar = () => {
                 FAQ
               </a>
               <a
-                href="#Header"
+                href="/blogs"
                 className={`py-3 px-4 cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 rounded-xl text-sm font-medium ${isScrolled
                     ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)] hover:bg-gray-100'
                     : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)] hover:bg-white/20'
@@ -292,7 +292,7 @@ const Navbar = () => {
                 BLOGS
               </a>
               <a
-                href="#Header"
+                href="/contact"
                 className={`py-3 px-4 cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-1 rounded-xl text-sm font-medium ${isScrolled
                     ? 'text-gray-800 hover:text-cyan-600 hover:drop-shadow-[0_4px_8px_rgba(8,145,178,0.4)] hover:bg-gray-100'
                     : 'text-white hover:text-cyan-300 hover:drop-shadow-[0_4px_8px_rgba(34,211,238,0.4)] hover:bg-white/20'

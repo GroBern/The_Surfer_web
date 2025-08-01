@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/srilanka/Header'
 import Perfect from '../components/country/Perfect'
 import ImageCard from '../components/country/ImageCard'
 import ChooseSurfCamp from '../components/country/ChooseSurf'

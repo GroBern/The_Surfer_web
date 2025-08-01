@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const SurfingJourney = () => {
   return (
     <motion.div 
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-[-5rem]' 
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-[-6rem]' 
       id='Journey'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -36,10 +36,14 @@ const SurfingJourney = () => {
         to travel between the camps! You can basically spend all ur day at the beach camp and just go for sleep at TS2 camp !      
       </motion.p>
 
-        <div className='flex justify-center w-full'>
-          <button className='px-1.5 lg:px-2 mt-5 py-0.5 text-[8px] lg:text-[10px] rounded-full border border-black text-black transition-all duration-300 hover:bg-black-200 hover:text-black hover:scale-102 hover:shadow-lg transform'>
-            BOOK NOW
-          </button>
+        <div className='flex justify-center w-full mt-3 mb-2'>
+          <a
+          className="px-2 py-1 text-sm font-medium border border-black rounded-full text-black hover:bg-gray-100 hover:scale-105 transition-transform duration-300"
+          href="https://main.d7z80586kqd0r.amplifyapp.com/"
+          target="_blank"
+        >
+          Book Now
+        </a>
         </div>
     </motion.div>
   )

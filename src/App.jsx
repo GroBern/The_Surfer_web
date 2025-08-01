@@ -7,6 +7,9 @@ import StyleCamp from './pages/StyleCamp'
 import Srilanka from './pages/Srilanka'
 import Morocco from './pages/Morocco'
 import ContactUs from './pages/ContactUs'
+import Blogs from './pages/Blogs'
+import Faq from './pages/Faq'
+import Activities from './pages/Activities'
 
 const App = () => {
   return (
@@ -20,6 +23,9 @@ const App = () => {
         <Route path='/srilanka' element={<Srilanka />} />
         <Route path='/morocco' element={<Morocco />} />
         <Route path='/contact' element={<ContactUs />} />
+        <Route path='/blogs' element={<Blogs />} />
+        <Route path='/faq' element={<Faq />} />
+        <Route path='/activities' element={<Activities />} />
 
       </Routes>
     </BrowserRouter>

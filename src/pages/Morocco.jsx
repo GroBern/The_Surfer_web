@@ -19,7 +19,7 @@ const Morocco = () => {
     <div>
         <Header />
         <Perfect />
-        <ImageCard />
+        {/* <ImageCard /> */}
         <ChooseSurfCamp />
         <SurfStyle />
         <SurferWay />

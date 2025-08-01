@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 const Header = () => {
   return (
     <div className='min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden' 
-    style={{ backgroundImage: "url('/surf.jpg')" }} id='Header'>
+    style={{ backgroundImage: "url('/contact.jpg')" }} id='Header'>
         <Navbar />
         <div className='container text-center mx-auto py-4 px-2 sm:px-6 md:px-20 lg:px-32 text-white'>
           <h2 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[80px] inline-block max-w-full sm:max-w-3xl font-bold pt-18 mt-16 sm:mt-8 md:-mt-2'>
