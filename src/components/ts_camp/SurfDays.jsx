@@ -40,7 +40,7 @@ const SurfDays = () => {
             whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
           >
             <img
-              src="/beach_camp/I1.jpg"
+              src="/ts2_camp/surfdays_1.jpg"
               alt="Surf Day Image"
               className='w-full h-40 lg:h-48 object-cover shadow-md'
             />
@@ -76,7 +76,7 @@ const SurfDays = () => {
             whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
           >
             <img
-              src="/beach_camp/I2.jpg"
+              src="/ts2_camp/surfdays_2.jpg"
               alt="Surf Day Image"
               className='w-full h-40 lg:h-48 object-cover shadow-md'
             />
@@ -113,7 +113,7 @@ const SurfDays = () => {
             whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
           >
             <img
-              src="/beach_camp/I3.jpg"
+              src="/ts2_camp/surfdays_3.jpg"
               alt="Surf Day Image"
               className='w-full h-40 lg:h-48 object-cover shadow-md'
             />
@@ -150,7 +150,7 @@ const SurfDays = () => {
             whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
           >
             <img
-              src="/beach_camp/bg.jpg"
+              src="/ts2_camp/surfdays_4.jpg"
               alt="Surf Day Image"
               className='w-full h-40 lg:h-48 object-cover shadow-md'
             />

@@ -5,7 +5,7 @@ const ComfortableStays = () => {
 
   return (
     <Motion.div
-      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-16 px-4'
+      className='flex flex-col items-center justify-center container mx-auto w-full overflow-hidden mt-16 mb-16 px-4'
       id='ComfortableStays'
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -53,7 +53,7 @@ const ComfortableStays = () => {
               whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
             >
               <img
-                src="/beach_camp/I1.jpg"
+                src="/ts2_camp/room_1.jpg"
                 alt="Comfortable stay"
                 className='w-full h-48 sm:h-52 lg:h-56 object-cover'
               />
@@ -89,7 +89,7 @@ const ComfortableStays = () => {
               whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
             >
               <img
-                src="/beach_camp/I2.jpg"
+                src="/ts2_camp/room_2.jpg"
                 alt="Comfortable stay"
                 className='w-full h-48 sm:h-52 lg:h-56 object-cover'
               />
@@ -125,7 +125,7 @@ const ComfortableStays = () => {
               whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
             >
               <img
-                src="/beach_camp/I3.jpg"
+                src="/ts2_camp/room_3.jpg"
                 alt="Comfortable stay"
                 className='w-full h-48 sm:h-52 lg:h-56 object-cover'
               />
@@ -161,7 +161,7 @@ const ComfortableStays = () => {
               whileHover={{ scale: 1.01, transition: { duration: 0.2 } }}
             >
               <img
-                src="/beach_camp/bg.jpg"
+                src="/ts2_camp/room_4.jpg"
                 alt="Comfortable stay"
                 className='w-full h-48 sm:h-52 lg:h-56 object-cover'
               />

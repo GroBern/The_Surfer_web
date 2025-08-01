@@ -11,7 +11,7 @@ const ImageCard = ({ image, title, subtitle, link, index }) => (
     className="relative overflow-hidden shadow-2xl group cursor-pointer mb-10"
   >
     <div 
-      className="aspect-[4/5] bg-cover bg-center transform transition-transform duration-700 group-hover:scale-110"
+      className="aspect-[4/6] bg-cover bg-center transform transition-transform duration-700 group-hover:scale-110"
       style={{
         backgroundImage: `url(/${image})`,
       }}

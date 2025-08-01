@@ -18,7 +18,7 @@ const BeachCamp = () => {
       <Packages />
       <SurfDays />
       <ComfortableStays />
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       <Footer />
     </div>
   )
