@@ -21,8 +21,8 @@ const Activities = () => {
             </div>
 
             {/* Header */}
-            <div className="max-w-7xl mx-auto px-4 py-10 text-center">
-                <h1 className="text-2xl md:text-4xl font-bold text-[#0a67b3] mb-4">
+            <div className="max-w-7xl mx-auto px-4 py-15 text-center">
+                <h1 className="text-2xl md:text-4xl font-bold text-neutral-600 mb-4">
                     Have an unforgettable surf holiday
                 </h1>
                 <p className="text-sm md:text-base text-gray-600 max-w-3xl mx-auto">
@@ -31,15 +31,15 @@ const Activities = () => {
             </div>
 
             {/* Image Grid */}
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-4 pb-10">
-                <div className="w-full h-72 overflow-hidden shadow-md">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-4 pb-12">
+                <div className="w-full h-100 overflow-hidden shadow-md">
                     <img
                         src="/activities/main1.jpg"
                         alt=""
                         className="w-full h-full object-cover"
                     />
                 </div>
-                <div className="w-full h-72 overflow-hidden shadow-md">
+                <div className="w-full h-100 overflow-hidden shadow-md">
                     <img
                         src="/activities/main2.jpg"
                         alt=""
@@ -60,64 +60,52 @@ const Activities = () => {
             </div>
 
             {/* Info Section 1 */}
-            <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center md:justify-between gap-6">
-                <div className="w-full md:w-1/2">
-                    <img
-                        src="/activities/people.jpg"
-                        alt=""
-                        className="w-full shadow-md object-cover"
-                    />
-                </div>
-                <div className="w-full md:w-1/2 text-right">
-                    <h2 className="text-xl md:text-2xl font-bold text-[#0a67b3] mb-2">
-                        MEET NEW PEOPLE FROM ALL AROUND THE WORLD
-                    </h2>
-                    <p className="text-gray-600 text-sm md:text-base">
-                        We have plenty of activities for you and we have group events for you every day. No matter if you're with friends or traveling solo, you are never alone at The Surfer.
-                    </p>
+            <div className="max-w-7xl mx-auto px-4 py-15 text-center">
+                <h2 className="text-xl md:text-2xl font-bold text-neutral-600 mb-4">
+                    MEET NEW PEOPLE FROM ALL AROUND THE WORLD
+                </h2>
+                <p className="text-gray-600 text-sm md:text-base mb-15 max-w-3xl mx-auto">
+                    We have plenty of activities for you and we have group events for you every day. No matter if you're with friends or traveling solo, you are never alone at The Surfer.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <img src="/activities/people.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/people1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/people3.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
                 </div>
             </div>
 
             {/* Info Section 2 */}
-            <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col-reverse md:flex-row items-center md:justify-between gap-6">
-                <div className="w-full md:w-1/2 text-left">
-                    <h2 className="text-xl md:text-2xl font-bold text-[#0a67b3] mb-2">
-                        MAKE NEW FRIENDS FOR LIFE
-                    </h2>
-                    <p className="text-gray-600 text-sm md:text-base">
-                        Once you visit The Surfer Sri Lanka, you’ll always be part of our family.
-                    </p>
-                </div>
-                <div className="w-full md:w-1/2">
-                    <img
-                        src="/activities/friends.jpg"
-                        alt=""
-                        className="w-full shadow-md object-cover"
-                    />
+            <div className="max-w-7xl mx-auto px-4 py-15 text-center">
+                <h2 className="text-xl md:text-2xl font-bold text-neutral-600 mb-4">
+                    MAKE NEW FRIENDS FOR LIFE
+                </h2>
+                <p className="text-gray-600 text-sm md:text-base mb-15 max-w-3xl mx-auto">
+                    Once you visit The Surfer Sri Lanka, you’ll always be part of our family.
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <img src="/activities/friends.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/main1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/main2.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
                 </div>
             </div>
 
             {/* Info Section 3 */}
-            <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center md:justify-between gap-6">
-                <div className="w-full md:w-1/2">
-                    <img
-                        src="/activities/boat.jpg"
-                        alt=""
-                        className="w-full shadow-md object-cover"
-                    />
-                </div>
-                <div className="w-full md:w-1/2 text-right">
-                    <h2 className="text-xl md:text-2xl font-bold text-[#0a67b3] mb-2">
-                        BOAT PARTY
-                    </h2>
-                    <p className="text-gray-600 text-sm md:text-base">
-                        #BOATPARTY! If you’ve ever attended our legendary boat party, you’ll never forget it!
-                    </p>
+            <div className="max-w-7xl mx-auto px-4 py-15 text-center mb-10">
+                <h2 className="text-xl md:text-2xl font-bold text-neutral-600 mb-4">
+                    BOAT PARTY
+                </h2>
+                <p className="text-gray-600 text-sm md:text-base mb-15 max-w-3xl mx-auto">
+                    #BOATPARTY! If you’ve ever attended our legendary boat party, you’ll never forget it!
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <img src="/activities/boat.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/people.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/people1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
                 </div>
             </div>
 
             {/* Second Video */}
-            {/* <div className="max-w-7xl mx-auto px-4 pb-10">
+            <div className="max-w-7xl mx-auto px-4 pb-10">
                 <div className="w-full h-72 md:h-96 overflow-hidden shadow-md">
                     <img
                         src="/activities/people3.jpg"
@@ -125,11 +113,11 @@ const Activities = () => {
                         className="w-full h-full object-cover"
                     />
                 </div>
-            </div> */}
+            </div>
 
             {/* Booking CTA */}
             <div className="max-w-7xl mx-auto px-4 py-16 text-center">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#0a67b3] mb-6">
+                <h2 className="text-2xl md:text-3xl font-bold text-neutral-600 mb-6">
                     Book your spot now
                 </h2>
                 <button
