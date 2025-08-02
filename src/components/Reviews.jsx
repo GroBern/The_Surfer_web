@@ -38,6 +38,15 @@ const ReviewsCard = (props) => {
                 >
                     {props.name}
                 </motion.h1>
+                <motion.p 
+                    className='text-gray-500 ml-1 xl:text-[.875rem] font-semibold mt-[-0.5rem]'
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.5 }}
+                    viewport={{ once: true }}
+                >
+                    {props.date}
+                </motion.p>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -55,10 +64,10 @@ const ReviewsCard = (props) => {
 
 const Reviews = () => {
     const reviewsData = [
-        { id: 1, img: "/review.png", name: "Koen Slinger", description: "We had a blast. Great atmosphere, friendly and helpfull staff, great accomodation where everything is set-up for a stay without any hassle..." },
-        { id: 2, img: "/review.png", name: "Brittany Jaide", description: "Loved my stay here! Great service and friendly staff. The surfing instructors were super knowledgable and caring and loved the variety of night..." },
-        { id: 3, img: "/review.png", name: "Sanya Shah", description: "Truly amazing!!!! I surfed for the first time in Weligama. The instructors here are incredible! Especially Emily, Nadiv, Maya, and Matty. They helped me..." },
-        { id: 4, img: "/review.png", name: "Helen", description: "It is my second time at the Surfer and I can’t wait to come back. Another amazing and super chilled stay, friendly people, excellent surf instructors... " }
+        { id: 1, img: "/review.png", name: "Koen Slinger", date: "2025-04-16", description: "We had a blast. Great atmosphere, friendly and helpfull staff, great accomodation where everything is set-up for a stay without any hassle..." },
+        { id: 2, img: "/review.png", name: "Brittany Jaide", date: "2025-03-21", description: "Loved my stay here! Great service and friendly staff. The surfing instructors were super knowledgable and caring and loved the variety of night..." },
+        { id: 3, img: "/review.png", name: "Sanya Shah", date: "2024-02-03", description: "Truly amazing!!!! I surfed for the first time in Weligama. The instructors here are incredible! Especially Emily, Nadiv, Maya, and Matty. They helped me..." },
+        { id: 4, img: "/review.png", name: "Rachel Rife", date: "2024-01-19", description: "We loved our stay! The staff and instructors were so kind and we got much better at surfing during the week. The price matches the quality of food/rooms and the... " }
     ];
 
     return (
@@ -70,15 +79,16 @@ const Reviews = () => {
                 transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
                 viewport={{ once: true, amount: 0.5 }}
             >
-                Reviews
+                Google Reviews
             </motion.h1>
             {/* Testimonials */}
             <div className='flex flex-col md:flex-row gap-5 mt-5'>
                 {reviewsData.map((review) => (
                     <ReviewsCard 
                         key={review.id}
-                        img={review.img} 
+                        img={review.img}
                         name={review.name}
+                        date={review.date}
                         description={review.description}
                     />
                 ))}
@@ -86,25 +96,25 @@ const Reviews = () => {
 
 
             {/* Awards and review badges section - single row on large screens, stacked on mobile */}
-            <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-6 mt-12 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-2">
+            <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-6 mt-18 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-2">
                 {/* TripAdvisor badges row */}
                 <div className="flex flex-col items-center justify-center pb-3 lg:pb-0 px-4 py-1">
-                    <div className="flex flex-row gap-4 items-end justify-center whitespace-nowrap">
+                    <div className="flex flex-row gap-2 items-end justify-center whitespace-nowrap">
                         {/* Card style for each badge */}
                         <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center  hover:border-white-500 transition-all duration-300">
-                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
-                        </div>
-                        <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
-                        </div>
-                        <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
+                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
                         </div>
                         <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
                             <img src="/2021.png" alt="2021 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
                         </div>
                         <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
-                            <img src="/2018.png" alt="2018 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
+                            <img src="/2022.png" alt="2022 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
+                        </div>
+                        <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
+                            <img src="/2023.png" alt="2023 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
+                        </div>
+                        <div className="bg-white border-white-300 shadow-md flex flex-col items-center justify-center hover:border-white-500 transition-all duration-300">
+                            <img src="/2024.png" alt="2024 TripAdvisor" className="w-38 h-38 object-contain hover:scale-105 transition-transform duration-300" />
                         </div>
                     </div>
                     <h2 className="font-bold text-base xs:text-lg sm:text-xl md:text-2xl mt-3 mb-2 text-center text-neutral-400 leading-tight max-w-xs sm:max-w-md md:max-w-lg">5-TIME TRAVELER’S CHOICE AWARD</h2>

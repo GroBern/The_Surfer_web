@@ -83,15 +83,15 @@ const FAQ = () => {
               }`}
               onClick={() => handleToggle(idx)}
             >
-              <span className="text-lg md:text-lg font-bold text-left text-neutral-400">
+              <span className="text-lg md:text-lg font-bold text-left text-neutral-700">
                 {item.question}
               </span>
-              <span className="text-3xl font-bold text-neutral-400">
+              <span className="text-3xl font-bold text-neutral-700">
                 {openIndex === idx ? '−' : '+'}
               </span>
             </button>
             {openIndex === idx && item.answer && (
-              <div className="px-6 pb-6 text-base xl:text-[.875rem] text-neutral-500 animate-fadein">
+              <div className="px-6 pb-6 text-base xl:text-[.875rem] text-neutral-700 animate-fadein">
                 {item.answer.split('\n').map((line, i) => (
                   <p key={i} className="mb-2 last:mb-0 leading-relaxed">{line}</p>
                 ))}
