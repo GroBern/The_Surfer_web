@@ -191,13 +191,13 @@ const contact = () => {
           viewport={{ once: true, amount: 0.3 }}
         >
           <motion.h3 
-            className="text-lg font-bold text-black mb-13"
+            className="text-lg font-bold text-black mb-6"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.4, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.5 }}
           >
-            THE SURFER SURFSTYLE
+            THE SURFER STYLE - MOROCCO
           </motion.h3>
           <motion.div 
             className="text-sm text-black font-semibold leading-relaxed mb-6"

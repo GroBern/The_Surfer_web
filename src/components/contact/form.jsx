@@ -11,15 +11,14 @@ const Form = () => {
     phone: '',
     country: '',
     message: '',
-    privacyPolicy: false
   });
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: type === 'checkbox' ? checked : value
-    }));
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
 
   const handleSubmit = (e) => {
@@ -142,21 +141,6 @@ const Form = () => {
             rows="6"
             required
           />
-        </div>
-
-        <div className="flex items-center gap-3 mb-6">
-          <input
-            type="checkbox"
-            name="privacyPolicy"
-            checked={formData.privacyPolicy}
-            onChange={handleChange}
-            className="w-auto m-0 scale-125"
-            id="privacyPolicy"
-            required
-          />
-          <label htmlFor="privacyPolicy" className="text-neutral-400 text-sm cursor-pointer select-none">
-            I've read the privacy policy
-          </label>
         </div>
 
         <div>
