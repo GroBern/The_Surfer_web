@@ -10,7 +10,7 @@ const Packages = () => {
       des: "OR",
       description: "MODERATE SURF GUIDING",
       features: "Advanced Surfers",
-      image: "/beach_camp/I1.jpg",
+      image: "/beach_camp/package_1.jpg",
       pricing: [
         { type: "MIXED DORMITORY BED - Max ( 05 people )", price: "350 €" },
         { type: "PRIVATE SINGLE ROOM Per Week", price: "600 €" },
@@ -35,7 +35,7 @@ const Packages = () => {
       des: "OR",
       description: "FULL SURF GUIDING PACKAGE",
       features: "Advanced Surfers",
-      image: "/beach_camp/I2.jpg",
+      image: "/beach_camp/package_2.jpg",
       pricing: [
         { type: "MIXED DORMITORY BED - Max ( 05 people )", price: "450 €" },
         { type: "PRIVATE SINGLE ROOM Per Week", price: "700 €" },
@@ -60,7 +60,7 @@ const Packages = () => {
       des: "OR",
       description: "Surf Guiding",
       features: "with Yoga",
-      image: "/beach_camp/I3.jpg",
+      image: "/beach_camp/package_3.jpg",
       pricing: [
         { type: "MIXED DORMITORY BED - Max ( 05 people )", price: "400 €" },
         { type: "PRIVATE SINGLE ROOM Per Week", price: "650 €" },

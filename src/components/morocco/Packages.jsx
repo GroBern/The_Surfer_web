@@ -95,7 +95,7 @@ const PackageCard = ({ image, title, subtitle, description, features, index }) =
 const SurfLessonPackages = () => {
   const packages = [
     {
-      image: "country/pkg1.jpg",
+      image: "morocco/package_1.jpg",
       title: "Morocco Surf Package",
       subtitle: "Beginners, Level 01 / Level 02 / Intermediate",
       description: "Perfect for beginner to intermediate surfers looking for a full surf and cultural immersion on the Atlantic coast of Morocco.",

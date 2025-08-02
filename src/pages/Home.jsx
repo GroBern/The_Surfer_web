@@ -22,7 +22,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   const cards = {
     card1: {
-      pic: "surfcard1.jpg",
+      pic: "beach.jpg",
       topic: "The Surfer Beach Surf Camp",
       body1:
         "Join us at the ultimate destination for surf enthusiasts. Experience the thrill of riding the waves and enjoy the serene beauty of the ocean.",
@@ -30,7 +30,7 @@ const Home = () => {
     },
 
     card2: {
-      pic: "surfcard2.jpg",
+      pic: "ts2.jpg",
       topic: "TS2 Surf Camp",
       body1:
         "Feel the magic of surfing as the sun sets over the horizon. Our guided sunset sessions are a perfect way to end your beach day.",
@@ -38,7 +38,7 @@ const Home = () => {
     },
 
     card3: {
-      pic: "surfcard3.jpg",
+      pic: "wave.jpg",
       topic: "Coming Soon: The Wave Surf Camp",
       body1:
         "Our other Sri Lankan surf camp is coming online soon. Stay tuned!",
@@ -46,7 +46,7 @@ const Home = () => {
     },
 
     card4: {
-      pic: "surfcard4.jpg",
+      pic: "surfstyle.jpg",
       topic: "The Surfer Surf Style",
       body1:
         "Take your skills to the next level with our advanced surf training camp. Designed for serious surfers seeking to improve technique and form.",

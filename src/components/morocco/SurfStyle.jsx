@@ -8,22 +8,22 @@ const SurfStyle = () => {
   const slides = [
     {
       id: 1,
-      image: 'country/I1.jpg',
+      image: 'morocco/surfstyle_1.jpg',
       alt: 'Surfers on beach'
     },
     {
       id: 2,
-      image: 'country/I2.jpg',
+      image: 'morocco/surfstyle_2.jpg',
       alt: 'Surf training'
     },
     {
       id: 3,
-      image: 'country/I3.jpg',
+      image: 'morocco/surfstyle_3.jpg',
       alt: 'Beach activities'
     },
     {
       id: 4,
-      image: 'country/I4.jpg',
+      image: 'morocco/surfstyle_4.jpg',
       alt: 'Surf lesson'
     }
   ];
