@@ -153,7 +153,7 @@ const Home = () => {
         </div>
       </div>
 
-      <SurfurWay />
+      {/* <SurfurWay /> */}
 
       <SurfPackageCard />
 

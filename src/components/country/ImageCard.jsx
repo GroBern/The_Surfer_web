@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion'; // eslint-disable-line no-unused-vars
 import SurfCampCard from "../../components/SurfCard";
-import Difference from "../../components/Difference";
+import Difference from "./Difference";
 
 const ImageCard = () => {
   const cards = {

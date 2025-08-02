@@ -22,12 +22,12 @@ export default function ChooseSurfCamp() {
   const pillars = [
     {
       icon: Award,
-      title: "5★ Tripadvisor Travelers' Choice Award",
+      title: "08th Consecutive Traveler Choise Awards on Tripadvisor. Most reviewd surf camp in Google ",
       description: "Recognized globally for excellence in surf experiences and service."
     },
     {
       icon: Users,
-      title: "Certified Local Coaches",
+      title: "International ISA certified Instructors",
       description: "Trained surfing from the region who know the waves better than anyone."
     },
     {
@@ -37,8 +37,8 @@ export default function ChooseSurfCamp() {
     },
     {
       icon: Globe,
-      title: "Global Surf Community",
-      description: "Join a tribe of surfers from over 60 countries."
+      title: "Make Friends For Life",
+      description: "From sunset jams to surfy hangouts, our social vibes bring travelers together — good times, good crew, and friendships that ride beyond the waves."
     }
   ];
 

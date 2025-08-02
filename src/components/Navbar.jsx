@@ -186,7 +186,7 @@ const Navbar = () => {
                       <div className={`${surfCamps[selectedCountry]?.originals.length > 0 ? 'border-t pt-4' : ''} ${isScrolled ? 'border-gray-200' : 'border-white/20'
                         }`}>
                         <h4 className={`text-sm font-semibold mb-3 ${isScrolled ? 'text-gray-800' : 'text-white'
-                          }`}>THE SURFER PARTNER CAMP</h4>
+                          }`}>THE SURFER PARTNERED CAMP</h4>
 
                         <div className="space-y-2">
                           {surfCamps[selectedCountry]?.partner.map((camp, index) => (

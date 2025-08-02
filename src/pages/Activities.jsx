@@ -68,9 +68,9 @@ const Activities = () => {
                     We have plenty of activities for you and we have group events for you every day. No matter if you're with friends or traveling solo, you are never alone at The Surfer.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <img src="/activities/people.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
-                    <img src="/activities/people1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
-                    <img src="/activities/people3.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_2.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_3.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
                 </div>
             </div>
 
@@ -83,9 +83,9 @@ const Activities = () => {
                     Once you visit The Surfer Sri Lanka, you’ll always be part of our family.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <img src="/activities/friends.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
-                    <img src="/activities/main1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
-                    <img src="/activities/main2.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_4.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_5.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_6.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
                 </div>
             </div>
 
@@ -98,9 +98,9 @@ const Activities = () => {
                     #BOATPARTY! If you’ve ever attended our legendary boat party, you’ll never forget it!
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <img src="/activities/boat.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
-                    <img src="/activities/people.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
-                    <img src="/activities/people1.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_7.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_8.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
+                    <img src="/activities/info_9.jpg" alt="" className="w-full h-80 object-cover shadow-md" />
                 </div>
             </div>
 

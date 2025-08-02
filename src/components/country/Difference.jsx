@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const SurfingJourney = () => {
   return (
     <motion.div 
-      className='hidden flex flex-col items-center justify-center container mx-2 w-full overflow-hidden mt-[-4rem] lg:flex xl:flex' 
+      className='hidden flex flex-col items-center justify-center container mx-20 w-full overflow-hidden mt-[-4rem] lg:flex xl:flex' 
       id='Journey'
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -12,7 +12,7 @@ const SurfingJourney = () => {
       viewport={{ once: true, amount: 0.3 }}
     >
       <motion.h1 
-        className='text-sm sm:text-base md:text-lg lg:text-[1.2rem] xl:text-[1.5rem] font-bold mt-5 mb-3 text-center text-neutral-400'
+        className='text-sm sm:text-base md:text-lg lg:text-[1.2rem] xl:text-[1.7rem] font-bold mt-5 mb-3 text-center text-neutral-400'
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, delay: 0.2, ease: "easeOut" }}
