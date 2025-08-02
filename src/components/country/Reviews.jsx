@@ -37,6 +37,15 @@ const ReviewsCard = (props) => {
                 >
                     {props.name}
                 </motion.h1>
+                <motion.p
+                    className='text-gray-500 ml-1 xl:text-[.875rem] font-semibold mt-[-0.5rem]'
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.5 }}
+                    viewport={{ once: true }}
+                >
+                    {props.date}
+                </motion.p>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -45,7 +54,7 @@ const ReviewsCard = (props) => {
                 viewport={{ once: true }}
             >
                 <p className='text-black-600 xl:text-[16px] ml-1 leading-relaxed hover:text-gray-800 transition-colors duration-300'>
-                     {props.description}
+                    {props.description}
                 </p>
             </motion.div>
         </motion.div>
@@ -54,10 +63,10 @@ const ReviewsCard = (props) => {
 
 const Reviews = () => {
     const reviewsData = [
-        { id: 1, img: "/review.png", name: "Koen Slinger", description: "We had a blast. Great atmosphere, friendly and helpfull staff, great accomodation where everything is set-up for a stay without any hassle..." },
-        { id: 2, img: "/review.png", name: "Brittany Jaide", description: "Loved my stay here! Great service and friendly staff. The surfing instructors were super knowledgable and caring and loved the variety of night..." },
-        { id: 3, img: "/review.png", name: "Sanya Shah", description: "Truly amazing!!!! I surfed for the first time in Weligama. The instructors here are incredible! Especially Emily, Nadiv, Maya, and Matty. They helped me..." },
-        { id: 4, img: "/review.png", name: "Helen", description: "It is my second time at the Surfer and I can’t wait to come back. Another amazing and super chilled stay, friendly people, excellent surf instructors... " }
+        { id: 1, img: "/review.png", name: "Koen Slinger", date: "2025-04-16", description: "We had a blast. Great atmosphere, friendly and helpfull staff, great accomodation where everything is set-up for a stay without any hassle..." },
+        { id: 2, img: "/review.png", name: "Brittany Jaide", date: "2025-03-21", description: "Loved my stay here! Great service and friendly staff. The surfing instructors were super knowledgable and caring and loved the variety of night..." },
+        { id: 3, img: "/review.png", name: "Sanya Shah", date: "2024-02-03", description: "Truly amazing!!!! I surfed for the first time in Weligama. The instructors here are incredible! Especially Emily, Nadiv, Maya, and Matty. They helped me..." },
+        { id: 4, img: "/review.png", name: "Rachel Rife", date: "2024-01-19", description: "We loved our stay! The staff and instructors were so kind and we got much better at surfing during the week. The price matches the quality of food/rooms and the... " }
     ];
 
     return (
@@ -77,6 +86,7 @@ const Reviews = () => {
                         key={review.id}
                         img={review.img}
                         name={review.name}
+                        date={review.date}
                         description={review.description}
                     />
                 ))}

@@ -22,23 +22,23 @@ export default function ChooseSurfCamp() {
   const pillars = [
     {
       icon: Award,
-      title: "Unique Locations",
-      description: "Each camp offers its own vibe—from beachfront energy in Sri Lanka to cultural calm in Morocco."
+      title: "08th Consecutive Traveler Choise Awards on Tripadvisor. Most reviewd surf camp in Google ",
+      description: "Recognized globally for excellence in surf experiences and service."
     },
     {
       icon: Users,
-      title: "Expert Local Coaches",
-      description: "Learn from certified instructors who know every break like the back of their hand."
+      title: "International ISA certified Instructors",
+      description: "Trained surfing from the region who know the waves better than anyone."
     },
     {
       icon: Home,
-      title: "Comfortable Accommodations",
-      description: "From cozy dorms to deluxe rooms, we offer clean and stylish stays that fit every budget."
+      title: "Beachfront Locations",
+      description: "Wake up to the waves in both Sri Lanka and Morocco."
     },
     {
       icon: Globe,
-      title: "Global Surf Community",
-      description: "Join surfers from over 50 countries and create friendships that last long after your trip ends."
+      title: "Make Friends For Life",
+      description: "From sunset jams to surfy hangouts, our social vibes bring travelers together — good times, good crew, and friendships that ride beyond the waves."
     }
   ];
 
@@ -55,7 +55,7 @@ export default function ChooseSurfCamp() {
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-400 mb-2">
             Why Choose The Surfer Surf Camps?
           </h2>
-          
+
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
