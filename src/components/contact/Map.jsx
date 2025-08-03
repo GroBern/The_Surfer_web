@@ -5,10 +5,13 @@ const Map = () => {
   const [mapType, setMapType] = useState('roadmap'); // 'roadmap' or 'satellite'
 
   const getMapUrl = (type) => {
-    const baseParams = "!1m18!1m12!1m3!1d31769.842105185937!2d80.4291!3d5.9749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae138d151937cd9%3A0x1d711f45897009dd!2sWeligama%2C%20Sri%20Lanka";
-    const mapTypeParam = type === 'satellite' ? '!5e1' : '!5e0';
-    return `https://www.google.com/maps/embed?pb=${baseParams}${mapTypeParam}!3m2!1sen!2sus!4v1706823456789!5m2!1sen!2sus`;
-  };
+    if (type === 'satellite') {
+        return "https://www.google.com/maps/d/u/0/embed?mid=143OMjTuK-AhYM-qH7Q6oWjUdbR1Ipzo&ehbc=2E312F&noprof=1";
+    } else {
+        return "https://www.google.com/maps/d/u/0/embed?mid=1eyLNjtlI_SDho4Ugvmqo0LXh895Se-o&ehbc=2E312F&noprof=1";
+    }
+};
+
   return (
     <motion.div 
       className="max-w-8xl mx-auto pt-10"
@@ -80,7 +83,7 @@ const Map = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-full"
+              className="w-full h-[500px]"
               title={`Weligama Location Map - ${mapType === 'satellite' ? 'Satellite' : 'Road'} View`}
             />
           </motion.div>
