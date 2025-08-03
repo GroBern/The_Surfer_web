@@ -10,6 +10,9 @@ import ContactUs from './pages/ContactUs'
 import Blogs from './pages/Blogs'
 import Faq from './pages/Faq'
 import Activities from './pages/Activities'
+import Terms from './pages/Terms'
+import Imprint from './pages/Imprint'
+import Policy from './pages/Policy'
 
 const App = () => {
   return (
@@ -26,6 +29,9 @@ const App = () => {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/faq' element={<Faq />} />
         <Route path='/activities' element={<Activities />} />
+        <Route path='/terms' element={<Terms />} />
+        <Route path='/imprint' element={<Imprint />} />
+        <Route path='/policy' element={<Policy />} />
 
       </Routes>
     </BrowserRouter>

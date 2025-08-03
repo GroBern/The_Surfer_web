@@ -46,9 +46,9 @@ const Footer = () => (
         <div className="pl-10">
           <h3 className="font-semibold mb-3 text-lg">Support</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:underline">Terms of Conditions</a></li>
-            <li><a href="#" className="hover:underline">Imprint</a></li>
-            <li><a href="#" className="hover:underline">Privacy policy</a></li>
+            <li><a href="/terms" className="hover:underline">Terms of Conditions</a></li>
+            <li><a href="/imprint" className="hover:underline">Imprint</a></li>
+            <li><a href="/policy" className="hover:underline">Privacy policy</a></li>
           </ul>
         </div>
       </div>
